@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWImageManager_Example' do
+  pod 'XVIEWImageManager', :path => '../'
+
+  target 'XVIEWImageManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
