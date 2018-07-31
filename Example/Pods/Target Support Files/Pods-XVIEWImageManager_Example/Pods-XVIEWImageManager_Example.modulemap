@@ -1,0 +1,6 @@
+framework module Pods_XVIEWImageManager_Example {
+  umbrella header "Pods-XVIEWImageManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - XVIEWImageManager (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - XVIEWImageManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  XVIEWImageManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  XVIEWImageManager: 0b96a190718c5e744a2992ae29d52cd89306dcd6
+
+PODFILE CHECKSUM: 21a11a13705f4808957996fe2d4a188f8b4cc88f
+
+COCOAPODS: 1.5.2

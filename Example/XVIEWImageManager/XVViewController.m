@@ -2,8 +2,8 @@
 //  XVViewController.m
 //  XVIEWImageManager
 //
-//  Created by maomao520benben on 07/31/2018.
-//  Copyright (c) 2018 maomao520benben. All rights reserved.
+//  Created by xiaheng666 on 07/31/2018.
+//  Copyright (c) 2018 xiaheng666. All rights reserved.
 //
 
 #import "XVViewController.h"

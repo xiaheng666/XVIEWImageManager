@@ -1,6 +1,6 @@
 # XVIEWImageManager
 
-[![CI Status](https://img.shields.io/travis/maomao520benben/XVIEWImageManager.svg?style=flat)](https://travis-ci.org/maomao520benben/XVIEWImageManager)
+[![CI Status](https://img.shields.io/travis/xiaheng666/XVIEWImageManager.svg?style=flat)](https://travis-ci.org/maomao520benben/XVIEWImageManager)
 [![Version](https://img.shields.io/cocoapods/v/XVIEWImageManager.svg?style=flat)](https://cocoapods.org/pods/XVIEWImageManager)
 [![License](https://img.shields.io/cocoapods/l/XVIEWImageManager.svg?style=flat)](https://cocoapods.org/pods/XVIEWImageManager)
 [![Platform](https://img.shields.io/cocoapods/p/XVIEWImageManager.svg?style=flat)](https://cocoapods.org/pods/XVIEWImageManager)
@@ -22,7 +22,7 @@ pod 'XVIEWImageManager'
 
 ## Author
 
-maomao520benben, key@xiaheng.net
+xiaheng666, key@xiaheng.net
 
 ## License
 
