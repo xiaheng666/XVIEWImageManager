@@ -1,6 +1,6 @@
 {
   "name": "XVIEWImageManager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "图片选择器",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWImageManager",
@@ -13,17 +13,17 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWImageManager.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XVIEWImageManager/Classes/**/*",
-  "resource_bundles": {
-    "XVIEWImageManager": [
-      "XVIEWImageManager/Assets/*.png"
-    ]
-  },
+  "source_files": [
+    "XVIEWImageManager/Classes/**/*",
+    "XVIEWImageManager/Classes/**/**/*",
+    "XVIEWImageManager/Classes/**/**/**/*",
+    "XVIEWImageManager/Classes/**/**/**/**/*"
+  ],
   "dependencies": {
     "Masonry": [
 
