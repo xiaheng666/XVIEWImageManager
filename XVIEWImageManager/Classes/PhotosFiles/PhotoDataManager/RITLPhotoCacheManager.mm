@@ -55,11 +55,11 @@
     
     self.numberOfAssetIsSelectedSignal = count;
     
-    self.assetIsSelectedSignal = 0;
+    // self.assetIsSelectedSignal = 0;
     //初始化
-//    self.assetIsSelectedSignal = new BOOL[count];
+   self.assetIsSelectedSignal = new BOOL[count];
     
-//    memset(self.assetIsSelectedSignal,false,count * sizeof(BOOL));
+   memset(self.assetIsSelectedSignal,false,count * sizeof(BOOL));
 }
 
 
