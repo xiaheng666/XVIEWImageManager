@@ -37,6 +37,8 @@ s.source_files = 'XVIEWImageManager/Classes/PhotosFiles/**/*{.h,m}','XVIEWImageM
   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.libraries = 'stdc++'
+  #  s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'Masonry'
+#s.dependency 'RITLPhotos', '~> 2.2.0'
 end

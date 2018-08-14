@@ -7,7 +7,6 @@
 //
 
 #import "XVAppDelegate.h"
-
 @implementation XVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

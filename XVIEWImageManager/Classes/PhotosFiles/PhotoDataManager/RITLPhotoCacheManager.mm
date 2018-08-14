@@ -54,11 +54,12 @@
 //    }
     
     self.numberOfAssetIsSelectedSignal = count;
-
-    //初始化
-    self.assetIsSelectedSignal = new BOOL[count];
     
-    memset(self.assetIsSelectedSignal,false,count * sizeof(BOOL));
+    self.assetIsSelectedSignal = 0;
+    //初始化
+//    self.assetIsSelectedSignal = new BOOL[count];
+    
+//    memset(self.assetIsSelectedSignal,false,count * sizeof(BOOL));
 }
 
 
