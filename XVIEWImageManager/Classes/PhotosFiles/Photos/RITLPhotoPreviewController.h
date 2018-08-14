@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Photos/Photos.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /// @brief 响应3D Touch出现的控制器

@@ -19,10 +19,14 @@
     "ios": "8.0"
   },
   "source_files": [
-    "XVIEWImageManager/Classes/**/*",
-    "XVIEWImageManager/Classes/**/**/*",
-    "XVIEWImageManager/Classes/**/**/**/*",
-    "XVIEWImageManager/Classes/**/**/**/**/*"
+    "XVIEWImageManager/Classes/PhotosFiles/**/*{.h,m}",
+    "XVIEWImageManager/Classes/PhotosFiles/Supporting/Category/*{.h,m}",
+    "XVIEWImageManager/Classes/PhotosFiles/Supporting/Protocol/*{.h}",
+    "XVIEWImageManager/Classes/PhotosFiles/Supporting/*.h",
+    "XVIEWImageManager/Classes/PhotosFiles/Supporting/Protocol/*",
+    "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/*{.h,m}",
+    "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/en.lproj/*{.strings}",
+    "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/zh-Hans.lproj/*{.strings}"
   ],
   "dependencies": {
     "Masonry": [

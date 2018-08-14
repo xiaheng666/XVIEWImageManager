@@ -7,7 +7,6 @@
 //
 
 #import "RITLPhotoBaseViewModel.h"
-
 @implementation RITLPhotoBaseViewModel
 
 /// 默认为空

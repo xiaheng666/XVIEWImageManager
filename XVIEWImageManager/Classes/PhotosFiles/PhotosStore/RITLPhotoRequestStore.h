@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <Photos/Photos.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /// 负责请求图片对象

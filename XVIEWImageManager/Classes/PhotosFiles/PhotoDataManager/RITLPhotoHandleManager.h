@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <Photos/Photos.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /// 对选择后的图片进行筛选的管理者

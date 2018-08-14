@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <Photos/Photos.h>
 NS_ASSUME_NONNULL_BEGIN
 
 /// 进行桥接进行回调的Manager

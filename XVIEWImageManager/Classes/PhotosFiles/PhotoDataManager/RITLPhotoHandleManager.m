@@ -7,7 +7,7 @@
 //
 
 #import "RITLPhotoHandleManager.h"
-
+#import <Photos/Photos.h>
 @implementation RITLPhotoHandleManager
 
 +(NSArray<PHAsset *> *)assetForAssets:(NSArray<PHAsset *> *)assets status:(BOOL *)status
