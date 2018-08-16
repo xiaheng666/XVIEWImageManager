@@ -47,6 +47,8 @@
 #import "RITLPhotoTextFieldViewModel.h"
 #import "RITLPhotoViewController.h"
 #import "RITLPhotoConfig.h"
+#import "ImageManager.h"
+#import "XVIEWSDKObject.h"
 
 FOUNDATION_EXPORT double XVIEWImageManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XVIEWImageManagerVersionString[];

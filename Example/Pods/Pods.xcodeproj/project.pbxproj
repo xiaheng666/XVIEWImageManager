@@ -7,112 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01D71418CE1D6403FEE0C4B06DAF2121 /* UIView+RITLFrameChanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA47985853C5BEB618A3018D4C05CC /* UIView+RITLFrameChanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		034EA22C615BE4BFEDC1E28EEC6C120E /* RITLPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10563BCFEDCAD524A48F9E8EA3483E19 /* RITLPhotoGroupCell.m */; };
-		0350BA70EE3EF1750A6A275183645B0C /* RITLPhotoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A4954D2B937C8A3D9051913ED93B2382 /* RITLPhotoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0640DF870F286514B7FBA24C56AF791A /* PHImageRequestOptions+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = A228666880044D7F940E01080095BB22 /* PHImageRequestOptions+RITLPhotoRepresentation.m */; };
 		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06EE1F82EA7435C8ED6CAA34682DBE2C /* RITLPhotoCacheManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17E7015FE0054C080C6C25BCAF8ED8F2 /* RITLPhotoCacheManager.mm */; };
 		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A479215103F3492307E674D3F9FE6F7 /* RITLPhotoTextFieldViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 34224C759F424936D428E6CEB6CF2F6C /* RITLPhotoTextFieldViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B38C15F997D701F7887FD6D50B76F5A /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE21906B30C248A8E07F772A88B0E9 /* Localizable.strings */; };
+		0BBB975063BC3DCE2609CE7B63B80805 /* PHAssetCollection+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A8EBDAAAEE73A5C5C15422D9467DB9 /* PHAssetCollection+RITLPhotoRepresentation.m */; };
 		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11EE85DE831A8BB172D8353AD303C6D0 /* RITLPhotoBrowseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD008EBE6FD9ACBF8C966ED0E684B4E /* RITLPhotoBrowseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11FC01FD489120C46343BCA1B0CBD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */; };
-		21F4E6B41EC7E499798515ACF14C29A2 /* PHImageRequestOptions+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9783939C29C32215D3DBAC889E16099 /* PHImageRequestOptions+RITLPhotoRepresentation.m */; };
+		122BA6821BC2965CC9583B3EEE7147F9 /* RITLPhotoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E0A0D04395835575AE4F6604167AEC /* RITLPhotoBrowseCell.m */; };
+		13765867E9927F8F90854E87E6CEF11C /* RITLPhotoBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6626B3ED8947E742EA654B783454837 /* RITLPhotoBaseViewModel.m */; };
+		1678F4278D588B53D32A801D39776956 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 400FAC2BCA4E8E35E797B332A22704E4 /* Localizable.strings */; };
+		1AE01AC4C0548C28F74E5B8CF184067E /* RITLPhotoBottomReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E401CA80848158DD1AE41920865BE327 /* RITLPhotoBottomReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CAB7D89710EE1A5A3BF047F14D774D7 /* RITLPhotoBrowseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2E6460A450858050736A2642017139 /* RITLPhotoBrowseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4189758368A7E758CEEBBE2FB7C0C4 /* ImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC1A48559C7F45875BA8E77137CEA41 /* ImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		283C6600BD6DFDD150AF53FDB47E3380 /* RITLPhotoGroupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D9A38E505E6678C6AB5E0347D562EC /* RITLPhotoGroupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28DC9A844D6737CCEF4F73C31E4BA83A /* PHAsset+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9262EE277ACF38577BF2A43ABE6A47 /* PHAsset+RITLPhotoRepresentation.m */; };
+		2A6ECB3FAC77CD668AAB085B42D03CA5 /* UIButton+RITLBlockButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D92D72355FFE4B28DEB33666A4700DE /* UIButton+RITLBlockButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BA96B8C547F09D9C41FEA9D980BAAF9 /* Pods-XVIEWImageManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C449E49B528BDE5AF3813293BDF17B7 /* Pods-XVIEWImageManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CBDA5EF07CE9F735B96EA977E41B90D /* UIViewController+RITLPhotoAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = D15314D2F3D8917B277AAC21DB710FDC /* UIViewController+RITLPhotoAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F10B9E7B3B720F03CE340C05DE714EA /* UIButton+RITLBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F7D35F104A52FDF1792981044C22C6 /* UIButton+RITLBlockButton.m */; };
-		301E3DE4F4F94653350DB92707D0A6B6 /* UIBar+RITLPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DF40D8C5193E2C42765BF509682948 /* UIBar+RITLPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		359F9578B17B79B44DBDD9EB3A573543 /* RITLPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE86F3191AC0A5FC6220C464C9AD61 /* RITLPhotoPreviewController.m */; };
-		3E6F0AA029E505664A651BA15057F33A /* RITLPhotoHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DF4ABAC50888EB33CCD407FA235069 /* RITLPhotoHandleManager.m */; };
-		3EAA865F9384AB7B54EC880514B45E5F /* RITLPhotoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03D02300F086655E3FB3297974C7A8 /* RITLPhotoStore.m */; };
-		3FFA5BDCB6FA4EA613D21572F82E89F2 /* RITLPhotoBottomReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C42E2442331735EEE5014A7EA4CE7 /* RITLPhotoBottomReusableView.m */; };
-		421A2E256584FB14FE88010C9613F05B /* UIViewController+RITLPhotoAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594DF9A61EF62FC80EE9E50A5DC40FA3 /* UIViewController+RITLPhotoAlertController.m */; };
-		434375E85EC286072F1CD2D5EC1C2AE0 /* RITLPhotoBrowseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C53BB0CF470AB7B22D76F1B2A3A289E /* RITLPhotoBrowseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB204CD55E3B80FF76D66898AD73CE3 /* RITLPhotoCollectionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E049D33DF491BFB199C0548C9EC130E8 /* RITLPhotoCollectionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E9526821069C33423E39C49B7F8391 /* RITLPhotoGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA60EEA1D68B22F4EC27451B9A699EE /* RITLPhotoGroupCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3198A42DC05EA66C70795655EB96E5E8 /* RITLPhotoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 365DFDE6936387194F5DB7101C493AE4 /* RITLPhotoStore.m */; };
+		33E4061C38C813896A6C771A3B584B2A /* RITLPhotoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC9C3C2DB5F873769B334438359F42F /* RITLPhotoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3532626CCDBFB69AABFA3F1DFD5550F3 /* RITLPhotoGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99D747C61A22BE190D552CF2D178F0 /* RITLPhotoGroupCell.m */; };
+		36D7B2D0D62E043BBAD4F58D89D17605 /* RITLPhotoBrowseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FD1504E8E8EAA9303C5FD44FA3661C /* RITLPhotoBrowseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A344707261DE2574F093771A47DBF9E /* RITLPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3372809E7D92DBDA47D25AC6001B680C /* RITLPhotosViewController.m */; };
+		3E5ABEF66A3A494494DF32A7457B44AE /* RITLPhotoRequestStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FA125C84E26FE6F1822AED13F50E47 /* RITLPhotoRequestStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C2AC508299E6B9A7D725FABF7D5D8B /* XVIEWSDKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 803EB838390E4C199727834DD5F518B6 /* XVIEWSDKObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41114861432C16D0FA3FE755512CE7B0 /* RITLPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E06EE4EEE2E35D780B3C715AB55651F3 /* RITLPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42637EBA40E509406DDB615BCB75D05B /* RITLPhotoTableCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F73E702B07F3639F45098255B4450DC3 /* RITLPhotoTableCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441430891F3475FA3F3B2098269FA8B9 /* RITLPhotoBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F5DCBE376EC4A7E184AD17F4BCB7E5 /* RITLPhotoBrowseController.m */; };
 		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDAA850E51DEF775C5545B99A709E15 /* RITLPhotoBrowseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6680E9D05C30956170040C9AA6FF85 /* RITLPhotoBrowseViewModel.m */; };
+		49A40B388E393D37A65522F09A55613E /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBE00E9D503C5510A932C5E3AA83AD /* ImageManager.m */; };
+		4A69BEA3BFC471E68532AE76F71CF2FE /* RITLPhotoScrollViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC8A22F125861077A881830378A0770 /* RITLPhotoScrollViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C5B367942708E41EF8AF8B49ADCC665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
 		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F3355470C182029A29D187C12673AB2 /* UIBar+RITLPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = D35D0FCADF62A5578544DF51F155C4BA /* UIBar+RITLPhotos.m */; };
+		524F44DD616861E3DF99096E07A124B6 /* RITLPhotosViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FEEC5C9C74E7EF4C5BEA0C2A9391F7 /* RITLPhotosViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		563B4DCB758DEE7B6970C7D0297498FB /* RITLPhotoStoreConfiguraion.h in Headers */ = {isa = PBXBuildFile; fileRef = D8E4998F866D61A91800C566622093F4 /* RITLPhotoStoreConfiguraion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		570BF321C1FC80B68240A87C21F22D4A /* RITLPhotosViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A2DEF775BD1BD66DDDCA1B7E46658B /* RITLPhotosViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		597F55807AD6E1AB194C9BB96B48FC85 /* RITLPhotosViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F437A286213632D8AB09844D3EDB8A9A /* RITLPhotosViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		615013480FAE5CF68D11118C9E7DB697 /* XVIEWImageManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7C2D7CCC9D735FE8E0B7E4E9771D52 /* XVIEWImageManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6364C57142E89499EA8C0ACA3273E335 /* RITLPhotoCollectionCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBEC3A04895653BD2FCE03FD0BCF0C8 /* RITLPhotoCollectionCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CB8C0783242580FA19B975A3E9F1B08 /* RITLPhotosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F2EC2EE1C518E9A4363B40AAB17988 /* RITLPhotosCell.m */; };
+		5E673E0F43C3C9C892D04870590179BF /* RITLPhotoGroupViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0255EA4687CE5568F5ADF151729600C8 /* RITLPhotoGroupViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61009DF81B4395ADB8AD02EAB38DB1EC /* RITLPhotoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F80D5F31B1C99EF668427DDB569C4B /* RITLPhotoNavigationViewController.m */; };
 		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		638FB42E6FF92C9FA1446E96D098D9DC /* RITLPhotoTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E05AE0AB2EB13623D3794D92E8B0576A /* RITLPhotoTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63919D52A8D347A7D27E2937A9C40605 /* RITLPhotoCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9660991DEDEB00A18C9A592574300520 /* RITLPhotoCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		661CFB9A849F5B4DA9BA968F75538F81 /* RITLPhotoGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F30B77BE43DCD5299197858A6475CD /* RITLPhotoGroupViewController.m */; };
-		6BA4A2A2B6FE27BFE01E63170883BA6F /* RITLPhotoGroupViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB5F479E58150DF5B7BB55A4C3F9057 /* RITLPhotoGroupViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6485FFC9D3C7ACF8BCB8D204EE0C5341 /* PHAssetCollection+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 16421E88BE37BF841D0568223B85E050 /* PHAssetCollection+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6796A96D1CC1989601B7E77C826C574E /* RITLPhotoHandleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFEA05E29138E6C9E03D1C237B999EB /* RITLPhotoHandleManager.m */; };
+		68F62B64C7EC022E74E3318A46EF7DEB /* RITLPhotoStore.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1ECD5AE16B3B1821F4E7544517165C /* RITLPhotoStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		70E02B6BC0E2BA02E3B0F7F91A1C3B24 /* XVIEWImageManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97C16DBACD5B3B78D9005C37E43D1F3 /* XVIEWImageManager-dummy.m */; };
+		6E2876012163D90C6F988AF17029B268 /* RITLPhotoNavigationViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7AFFB58F674C7EECDEA930373F8B31 /* RITLPhotoNavigationViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7113912B71CDA1D3481ABF563B5E54CF /* RITLPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E03FFB399ABC27080061B0562869724 /* RITLPhotoPreviewController.m */; };
+		72DB4FE7B98CB60BF4A7FF5BA34DA6EF /* RITLPhotoHandleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 519EC8968564940BD510574509AACFBC /* RITLPhotoHandleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		749592F89A21A4A793A56392F99C9C09 /* UIView+RITLFrameChanged.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1DE620A59AB1116D34DD9101B68487 /* UIView+RITLFrameChanged.m */; };
 		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		7964B4D726031D10EC2ECD43BBAAE656 /* RITLPhotoPublicViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7059DDA2ED06C0F7C51ED0191C02170B /* RITLPhotoPublicViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B9E621EBA0486E050BDECFCA41F1CD5 /* RITLPhotoGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23367EBEACBFD011FC7821DC73E7A0AC /* RITLPhotoGroupViewModel.m */; };
+		79B8B34C25703FAE642922E774395F04 /* RITLPhotoStoreConfiguraion.h in Headers */ = {isa = PBXBuildFile; fileRef = E41203D75123FF826F4500831CEC028E /* RITLPhotoStoreConfiguraion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A90252F6A5F1782A6D1A7D0B34C2686 /* RITLPhotoNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 617BFD3CFF3284C8C66AFC59C1BE8AA8 /* RITLPhotoNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FB495ED4570442A21D4ED71147A3C32 /* RITLPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C20E9556BD8D4C2C3053BFD80BBB26EA /* RITLPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FF90AB6FC36637F9F49225D545436FC /* RITLPhotoCacheManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B02BA27CC34540EEA7D1058EC589E /* RITLPhotoCacheManager.mm */; };
-		824BF77FCAA8D58BCCBC656ED4774BDD /* RITLPhotoBaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AB04C4AA6A2FA871F0B847D8A0785D /* RITLPhotoBaseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8454D52B0124C75C1BAC1AC8A4DF8713 /* RITLPhotoBrowseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E42B1DC91B95BED3F4BD096F001B6E59 /* RITLPhotoBrowseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCF707FCF8FFED841B59E21E4947467 /* RITLPhotoCollectionCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD76B9AC414E41A279A63BCB31FFCCCF /* RITLPhotoCollectionCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8292ED64A59BAFE9855088A1A2667543 /* RITLPhotoBaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B72187921F49A69DD68D3334BF544FE /* RITLPhotoBaseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840241982CD98EA1C8E202B3C8B09312 /* UIBar+RITLPhotos.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B20251F4DF9C401BB21FEFFDE61C30 /* UIBar+RITLPhotos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8588D723F5ECB13B14DB905E57739895 /* Pods-XVIEWImageManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9608BAC313232F325E4BCA2164411882 /* Pods-XVIEWImageManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8958646E4BB6252B957B1AC1A39AEB7D /* RITLPhotoBrowseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C78ED09B643CA2F488F9131ECF11BB /* RITLPhotoBrowseController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		8BB5754CDE77A9AF9B20A26418D56710 /* PHAssetCollection+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6ABED2B3571F8D9F46F3FB43FCD1D3 /* PHAssetCollection+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B243A404B3467E38F89FF3A6011BC7F /* UIView+RITLFrameChanged.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1F7CA8457B4F5BA9557DB79922C2D /* UIView+RITLFrameChanged.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98ACC6AAF93A3CC9DC8C96D2B7D5E578 /* RITLPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A5446B65F6FC9B53AA885F4A4ED35E /* RITLPhotosViewController.m */; };
-		9B50557AA5A89D3AAF1859CBC3F03973 /* RITLPhotoRequestStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 364D751C298D00A2E5FDE09CCC3C7314 /* RITLPhotoRequestStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CDCCEE9CB5FD5555FFD0CD12EA2DB28 /* PHAsset+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED83E78CA8788CC7034F60C254D2C53 /* PHAsset+RITLPhotoRepresentation.m */; };
+		8D53939F2A252C5BA9C783099317C41A /* UIBar+RITLPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AFE6E2CCDE1F9563A3BC313CB66F6D /* UIBar+RITLPhotos.m */; };
+		9DD505773DDD9A988640A16C22657FA6 /* PHImageRequestOptions+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9939C7756EA7707C13261FBAE470F7EE /* PHImageRequestOptions+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0193805E3FFB51CDDAC74DE2D83A45B /* RITLPhotoBottomReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7775996510B9C8325D4FE68A196C2706 /* RITLPhotoBottomReusableView.m */; };
 		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
-		A3DD0DDEDEE67B7E4302EC6F90B2C7C5 /* RITLPhotoRequestStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AE29D8AAADF3A215ED05FD40DC8498 /* RITLPhotoRequestStore.m */; };
-		A5369EC1056987DC5C99DD4B5320E617 /* PHImageRequestOptions+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 13770C9BEDE80D0BC19BA702D11B33E6 /* PHImageRequestOptions+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A502F669E2EB324899B53D2FE59B9753 /* RITLPhotoTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DD3A6C8830E322E3D2493093540EFD /* RITLPhotoTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		A7A29CD70376CCE1286B38DC981C4D4F /* RITLPhotoNavigationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EFFA256E43E486F5B9C7C7C0DADD7 /* RITLPhotoNavigationViewModel.m */; };
-		A8A1E031D3F926BF89F62F5E29380E01 /* PHAssetCollection+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7116D425F5F5EB9EE9C8E4B652D5 /* PHAssetCollection+RITLPhotoRepresentation.m */; };
-		AA0C03A2EA54814CB9112F1E16020736 /* RITLPhotoGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FA059DA9AD86AB27BC2D4C8930C383 /* RITLPhotoGroupCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABC4CD49FD2B9A764EFC6C236CB1ED5C /* RITLPhotoScrollViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACA8B34CDF9CC446B7369380A56CD4C /* RITLPhotoScrollViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADD1CDEA3D125196BE323290885C3345 /* RITLPhotosViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FE5BEEBA5157744E7DC0372ABF8EBD /* RITLPhotosViewModel.m */; };
+		ABBA3843517F4C4C1930E2808CC8552A /* RITLPhotosViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A66FAA5E6C60681D212485569B84FAB6 /* RITLPhotosViewModel.m */; };
 		AE196FB4E1F768A0D87A1B84B56F469B /* Pods-XVIEWImageManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D612E08C33BB754D179F094D7C34DC /* Pods-XVIEWImageManager_Tests-dummy.m */; };
-		AEF16F210C185D51AE382D90365E9994 /* PHFetchResult+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 93297D14B49B90C0C3DDCDEED036D69F /* PHFetchResult+RITLPhotoRepresentation.m */; };
-		B169E99681F6070E50E361EC3BB67C8A /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 8C37AD58270FB946EE39126DAB14553D /* Localizable.strings */; };
-		B3291551CDCCCAD487F807FBA795BFFD /* UIButton+RITLBlockButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CDF0D1BC05F4C80B2F731070B3985D /* UIButton+RITLBlockButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3AFD4C91567C5B40C4B1A8ED8653F28 /* RITLPhotoTableCellViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F21D76E96AD6291BDF5F1E4D8C7026 /* RITLPhotoTableCellViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1C5C47509B2FE6E640E2E7DB69232BE /* RITLPhotoTextFieldViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 650703C636385B8F52871A920A58E8A4 /* RITLPhotoTextFieldViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B413CBD9A8278A9D0B19A9D1ABD42985 /* XVIEWImageManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C2FF212F05E6F8E6F0C58A4AABE430 /* XVIEWImageManager-dummy.m */; };
 		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B52E09EF0ED55A5401814084068DC4DE /* RITLPhotoBridgeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CB17680537026D25A35AFEC67FCAD4E0 /* RITLPhotoBridgeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6B4412D7F727EF87CF1BE4748E24EF9 /* RITLPhotoBottomReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E082345A278BD929A421E1187CF4489 /* RITLPhotoBottomReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62BA4243DB5FA05B70556FC8FF24718 /* RITLPhotoNavigationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 891DCC9EB5BF31DE8E55BD7F57229BB1 /* RITLPhotoNavigationViewModel.m */; };
 		B767CF993F168E68A097FCA3C65E59DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		BC9A6B2284A89FEC8D55B16AD6E48365 /* RITLPhotosCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D642860BF293106A34D57D942A5BA62C /* RITLPhotosCell.m */; };
+		BCCF6B1CA0A5D047922F16379943E296 /* PHFetchResult+RITLPhotoRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 754C634F7CF364A82343941098A697CD /* PHFetchResult+RITLPhotoRepresentation.m */; };
+		BE2741E15258D7FF0029D22123F66E46 /* RITLPhotoCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A7BB3D3D16745999C477001AE84B88 /* RITLPhotoCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A9B61B2282F3D140D0BE72BEFDF537 /* RITLPhotoNavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC6BBFE4924D098481741961DD6E3F37 /* RITLPhotoNavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C600087AA2ADFA90E4EBAB1EE6FD3190 /* RITLPhotoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 796679A60F2FB9F5FB052BF7B7E2243A /* RITLPhotoBrowseCell.m */; };
-		C80FEDD66D6D0309377355D531F5E281 /* RITLPhotoNavigationViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5E79D473ECE7246E59E53FE953BD6D /* RITLPhotoNavigationViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32A12DE29E8FA1A111E9CCFD4D3182D /* RITLPhotoStoreConfiguraion.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A63686448BF2760A3525AAE911C889 /* RITLPhotoStoreConfiguraion.m */; };
+		C4666C8486C5612707C21DCCB2377254 /* RITLPhotoBrowseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D323B8A9F79CD44C61B8B6C4427C9289 /* RITLPhotoBrowseViewModel.m */; };
+		C4D8FCD8FD931796CCF3BDC7DC7E789F /* UIButton+RITLBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E46EE51AC60A012D0E62D79A8D161411 /* UIButton+RITLBlockButton.m */; };
+		C6D218C15E36026D345C9BFB1DE4D346 /* RITLPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E149E0A562202B5E02AE6D76DF7268C /* RITLPhotoPreviewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA3E909737CE681FCDCAB22FDF523811 /* PHAsset+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D3CA9D557C6FFCA44298BD81A4CB48 /* PHAsset+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB7C10929CC07E25B00680288ACB5ADC /* RITLPhotoBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE785A8DEEEE09A24D2A2061B28F8A51 /* RITLPhotoBrowseController.m */; };
 		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCE197D1685269707F6AE050268739B2 /* RITLPhotosCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BC21DE33B3EC0C5F3AC08BF032B690 /* RITLPhotosCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD6F2A18F21702769C3A1DC52DB4C635 /* RITLPhotoCollectionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B644B2A7DCB4DCFF87BF1E553932EB /* RITLPhotoCollectionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE6183DB20BE5E73A58CCBE8F4C6DA31 /* UIView+RITLFrameChanged.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1FDDF920D43C41C365DC78C715392C /* UIView+RITLFrameChanged.m */; };
+		CF4525F924429F9DA509472C1CE3F8A8 /* PHAsset+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DEEC2367C10432E2B552A34C8953E57 /* PHAsset+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB13E1713EEBB005C37C80A261385D9 /* RITLPhotosViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D14EDDFE3092302B5E91C53AD4D7DF /* RITLPhotosViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D00EF64C9154E15544F8A251E66CBF9C /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		D16312AC465BFA4BB57031C8872A70DA /* RITLPhotoRequestStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E16D93692EF1CCA3D61ABF331614C5FF /* RITLPhotoRequestStore.m */; };
 		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D979B8D014A1CF97A1ABE3D36F2D70B6 /* RITLPhotoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9494531767B3775E927585B81C288C7D /* RITLPhotoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE678A122B987C9D42079AF387BCF223 /* RITLPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3903D68AAA3C2CB644F5B87A21A7222 /* RITLPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB22FF8F6629A397754725AA8311F7D6 /* XVIEWImageManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D62F6CBB202D45B41FCFBF885A050992 /* XVIEWImageManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEB7D6560F41975E87A3E20FAFBAFC6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		DF4F24A9AB478EF3CBAB1D7B6AD091CD /* RITLPhotoGroupViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A9A27E8888F84A2D7D4F170634A9A7 /* RITLPhotoGroupViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E134FEBE5BB55F58573A7303580033CE /* RITLPhotoPublicViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8437C63A4F5F6BBACE9E9303C6593D18 /* RITLPhotoPublicViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E146C0BC1EF7CB802396E68D4E9A8522 /* UIViewController+RITLPhotoAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C8DDEE452C9B237D285B7D4EB3DBF5 /* UIViewController+RITLPhotoAlertController.m */; };
+		E3CD82A5C43C0D5E529B7751B1F5BBA8 /* UIViewController+RITLPhotoAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DCEEF706D5F5E13237EE606B66F97F /* UIViewController+RITLPhotoAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E440ACDD25A9746304234C65ADC595E7 /* PHFetchResult+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79773E59EC2D2AB0E7C81A93FEED4B3F /* PHFetchResult+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E579A0096A4321484551549788A31952 /* Pods-XVIEWImageManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B675CA4BDD5FE341373525A05CE582F0 /* Pods-XVIEWImageManager_Example-dummy.m */; };
 		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		EE3CDB667B42FB38F483C30B5AFBC14E /* RITLPhotoBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 785D6DAB6EDD2CC3FDF6FCC1DF2F93F5 /* RITLPhotoBridgeManager.m */; };
-		EFF68AE14BF630F826C798097CCC6FFA /* RITLPhotoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDA14A072378127643DFFC7E2AABD1 /* RITLPhotoNavigationViewController.m */; };
-		F2BEE2FBC33BD58EA15AFAF8499B2966 /* RITLPhotoHandleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2311E9AC4E5D1031C37CB0BB82DE817F /* RITLPhotoHandleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3419038A15E20AA29C44421A13E026B /* RITLPhotoBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C874AAD2888ED3A8A565617E8A095F39 /* RITLPhotoBaseViewModel.m */; };
-		F3F8CD7E1C26FE5156DAB0637C707EA5 /* RITLPhotoStoreConfiguraion.m in Sources */ = {isa = PBXBuildFile; fileRef = C26444FC354C210E548E0D3AF2FA3838 /* RITLPhotoStoreConfiguraion.m */; };
+		EFBF92CF95D628350094772569E15A7A /* RITLPhotoGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4FA7386B953E9CAB714C1F606262D7 /* RITLPhotoGroupViewController.m */; };
+		F40656BD15DE7B5D877535777D8B526B /* RITLPhotoBridgeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A187BC66645FC06955FE6A61A6CBFBD /* RITLPhotoBridgeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		F71E5D77A68AE904CCDAE6DE53542C88 /* RITLPhotosCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 055CBF6EC411EF6304A4BF425F9BBD1A /* RITLPhotosCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F72935647131E268B4C3CB5E0911C941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		F948DEE3E78E9D7167F5EB11BB63DF2E /* PHFetchResult+RITLPhotoRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = DFABED15700479B77E392DB32149A604 /* PHFetchResult+RITLPhotoRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F92B9AEF413F0DFE19A5332C9D716CAB /* RITLPhotoGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E571A98B1658DE5E0BB0DAACBD4AB3 /* RITLPhotoGroupViewModel.m */; };
+		F9A1653D6FCDB9F22B03547985F5BDA4 /* RITLPhotoBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B885AFE40E5C7F88AA607F51DB22 /* RITLPhotoBridgeManager.m */; };
+		FF50558BF36F37DD65B5B96924AE58B2 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 26622C9F5BCFF3A1F79524402345540A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,137 +150,140 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02CA47985853C5BEB618A3018D4C05CC /* UIView+RITLFrameChanged.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+RITLFrameChanged.h"; sourceTree = "<group>"; };
+		0051E695314B6E3B4ADF7CF82F466FFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0255EA4687CE5568F5ADF151729600C8 /* RITLPhotoGroupViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoGroupViewModel.h; sourceTree = "<group>"; };
 		02F9892EB4BA8E6AAC045BADD4344549 /* XVIEWImageManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWImageManager.framework; path = XVIEWImageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08DF40D8C5193E2C42765BF509682948 /* UIBar+RITLPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBar+RITLPhotos.h"; sourceTree = "<group>"; };
+		055CBF6EC411EF6304A4BF425F9BBD1A /* RITLPhotosCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotosCell.h; sourceTree = "<group>"; };
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		0EFDA14A072378127643DFFC7E2AABD1 /* RITLPhotoNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoNavigationViewController.m; sourceTree = "<group>"; };
-		0F6B02BA27CC34540EEA7D1058EC589E /* RITLPhotoCacheManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RITLPhotoCacheManager.mm; sourceTree = "<group>"; };
-		0F8C7116D425F5F5EB9EE9C8E4B652D5 /* PHAssetCollection+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
-		10563BCFEDCAD524A48F9E8EA3483E19 /* RITLPhotoGroupCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoGroupCell.m; sourceTree = "<group>"; };
-		13770C9BEDE80D0BC19BA702D11B33E6 /* PHImageRequestOptions+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHImageRequestOptions+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
-		13D3CA9D557C6FFCA44298BD81A4CB48 /* PHAsset+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAsset+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
-		16CDF0D1BC05F4C80B2F731070B3985D /* UIButton+RITLBlockButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+RITLBlockButton.h"; sourceTree = "<group>"; };
-		17AE29D8AAADF3A215ED05FD40DC8498 /* RITLPhotoRequestStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoRequestStore.m; sourceTree = "<group>"; };
-		1E082345A278BD929A421E1187CF4489 /* RITLPhotoBottomReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBottomReusableView.h; sourceTree = "<group>"; };
+		09462EA7E1B3C1AA170540F2BA5BB215 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16421E88BE37BF841D0568223B85E050 /* PHAssetCollection+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
+		17E7015FE0054C080C6C25BCAF8ED8F2 /* RITLPhotoCacheManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = RITLPhotoCacheManager.mm; sourceTree = "<group>"; };
+		18DD3A6C8830E322E3D2493093540EFD /* RITLPhotoTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoTableViewModel.h; sourceTree = "<group>"; };
+		1B72187921F49A69DD68D3334BF544FE /* RITLPhotoBaseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBaseViewModel.h; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		21C78ED09B643CA2F488F9131ECF11BB /* RITLPhotoBrowseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBrowseController.h; sourceTree = "<group>"; };
-		2311E9AC4E5D1031C37CB0BB82DE817F /* RITLPhotoHandleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoHandleManager.h; sourceTree = "<group>"; };
-		23367EBEACBFD011FC7821DC73E7A0AC /* RITLPhotoGroupViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoGroupViewModel.m; sourceTree = "<group>"; };
-		28F7D35F104A52FDF1792981044C22C6 /* UIButton+RITLBlockButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RITLBlockButton.m"; sourceTree = "<group>"; };
-		2B5E79D473ECE7246E59E53FE953BD6D /* RITLPhotoNavigationViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoNavigationViewModel.h; sourceTree = "<group>"; };
+		24DCEEF706D5F5E13237EE606B66F97F /* UIViewController+RITLPhotoAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RITLPhotoAlertController.h"; sourceTree = "<group>"; };
+		25D1F7CA8457B4F5BA9557DB79922C2D /* UIView+RITLFrameChanged.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+RITLFrameChanged.h"; sourceTree = "<group>"; };
+		26622C9F5BCFF3A1F79524402345540A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		34224C759F424936D428E6CEB6CF2F6C /* RITLPhotoTextFieldViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoTextFieldViewModel.h; sourceTree = "<group>"; };
-		364D751C298D00A2E5FDE09CCC3C7314 /* RITLPhotoRequestStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoRequestStore.h; sourceTree = "<group>"; };
+		333EDF137CBAA364397C44D1B11BB118 /* XVIEWImageManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWImageManager-prefix.pch"; sourceTree = "<group>"; };
+		3372809E7D92DBDA47D25AC6001B680C /* RITLPhotosViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotosViewController.m; sourceTree = "<group>"; };
+		33AFE6E2CCDE1F9563A3BC313CB66F6D /* UIBar+RITLPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBar+RITLPhotos.m"; sourceTree = "<group>"; };
+		365DFDE6936387194F5DB7101C493AE4 /* RITLPhotoStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoStore.m; sourceTree = "<group>"; };
+		36C018894E683471DDCE000E62302A3E /* XVIEWImageManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWImageManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		37B4AFF375FDFC6FA36A80268AD2A740 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3D2E6460A450858050736A2642017139 /* RITLPhotoBrowseController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBrowseController.h; sourceTree = "<group>"; };
+		3D92D72355FFE4B28DEB33666A4700DE /* UIButton+RITLBlockButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+RITLBlockButton.h"; sourceTree = "<group>"; };
+		400FAC2BCA4E8E35E797B332A22704E4 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		45072212F6D4E6C46B8CC7454BAB19A5 /* Pods-XVIEWImageManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWImageManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		450A8934D45E10F1EF3A3944D968A320 /* Pods_XVIEWImageManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWImageManager_Example.framework; path = "Pods-XVIEWImageManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4ACA8B34CDF9CC446B7369380A56CD4C /* RITLPhotoScrollViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoScrollViewModel.h; sourceTree = "<group>"; };
+		4A187BC66645FC06955FE6A61A6CBFBD /* RITLPhotoBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBridgeManager.h; sourceTree = "<group>"; };
 		4C449E49B528BDE5AF3813293BDF17B7 /* Pods-XVIEWImageManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWImageManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		50CE86F3191AC0A5FC6220C464C9AD61 /* RITLPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoPreviewController.m; sourceTree = "<group>"; };
+		4CC1A48559C7F45875BA8E77137CEA41 /* ImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		4DEEC2367C10432E2B552A34C8953E57 /* PHAsset+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAsset+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
+		4ED83E78CA8788CC7034F60C254D2C53 /* PHAsset+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
+		50D14EDDFE3092302B5E91C53AD4D7DF /* RITLPhotosViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotosViewModel.h; sourceTree = "<group>"; };
+		50DB147ACEEE9B38CB5BC2D15E1517C6 /* XVIEWImageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWImageManager.xcconfig; sourceTree = "<group>"; };
+		519EC8968564940BD510574509AACFBC /* RITLPhotoHandleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoHandleManager.h; sourceTree = "<group>"; };
+		52C8DDEE452C9B237D285B7D4EB3DBF5 /* UIViewController+RITLPhotoAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RITLPhotoAlertController.m"; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		5588C0260080E21A33D3D37AE4B91D9C /* Pods-XVIEWImageManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWImageManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		58F30B77BE43DCD5299197858A6475CD /* RITLPhotoGroupViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoGroupViewController.m; sourceTree = "<group>"; };
-		594DF9A61EF62FC80EE9E50A5DC40FA3 /* UIViewController+RITLPhotoAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RITLPhotoAlertController.m"; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		5BC8A22F125861077A881830378A0770 /* RITLPhotoScrollViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoScrollViewModel.h; sourceTree = "<group>"; };
+		5F4FA7386B953E9CAB714C1F606262D7 /* RITLPhotoGroupViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoGroupViewController.m; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		617BFD3CFF3284C8C66AFC59C1BE8AA8 /* RITLPhotoNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoNavigationViewController.h; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		635C42E2442331735EEE5014A7EA4CE7 /* RITLPhotoBottomReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBottomReusableView.m; sourceTree = "<group>"; };
-		64F21D76E96AD6291BDF5F1E4D8C7026 /* RITLPhotoTableCellViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoTableCellViewModel.h; sourceTree = "<group>"; };
+		63B20251F4DF9C401BB21FEFFDE61C30 /* UIBar+RITLPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBar+RITLPhotos.h"; sourceTree = "<group>"; };
+		650703C636385B8F52871A920A58E8A4 /* RITLPhotoTextFieldViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoTextFieldViewModel.h; sourceTree = "<group>"; };
 		65CA284574319DFDEBD812D02201482B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6725D6876EEBB8DB6FEAAE49837F9B4D /* Pods-XVIEWImageManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWImageManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		67BBE00E9D503C5510A932C5E3AA83AD /* ImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
 		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D6680E9D05C30956170040C9AA6FF85 /* RITLPhotoBrowseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBrowseViewModel.m; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		7059DDA2ED06C0F7C51ED0191C02170B /* RITLPhotoPublicViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoPublicViewModel.h; sourceTree = "<group>"; };
-		74A5446B65F6FC9B53AA885F4A4ED35E /* RITLPhotosViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotosViewController.m; sourceTree = "<group>"; };
+		754C634F7CF364A82343941098A697CD /* PHFetchResult+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
+		76D9A38E505E6678C6AB5E0347D562EC /* RITLPhotoGroupViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoGroupViewController.h; sourceTree = "<group>"; };
+		7775996510B9C8325D4FE68A196C2706 /* RITLPhotoBottomReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBottomReusableView.m; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		785D6DAB6EDD2CC3FDF6FCC1DF2F93F5 /* RITLPhotoBridgeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBridgeManager.m; sourceTree = "<group>"; };
-		796679A60F2FB9F5FB052BF7B7E2243A /* RITLPhotoBrowseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBrowseCell.m; sourceTree = "<group>"; };
+		79773E59EC2D2AB0E7C81A93FEED4B3F /* PHFetchResult+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		79DF4ABAC50888EB33CCD407FA235069 /* RITLPhotoHandleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoHandleManager.m; sourceTree = "<group>"; };
-		79FC1011D26F03DB87B19AAC9134DA39 /* XVIEWImageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWImageManager.xcconfig; sourceTree = "<group>"; };
-		7CCE21906B30C248A8E07F772A88B0E9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		79FD1504E8E8EAA9303C5FD44FA3661C /* RITLPhotoBrowseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBrowseViewModel.h; sourceTree = "<group>"; };
+		7BC9C3C2DB5F873769B334438359F42F /* RITLPhotoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoConfig.h; sourceTree = "<group>"; };
+		7E149E0A562202B5E02AE6D76DF7268C /* RITLPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoPreviewController.h; sourceTree = "<group>"; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		7F9262EE277ACF38577BF2A43ABE6A47 /* PHAsset+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
+		803EB838390E4C199727834DD5F518B6 /* XVIEWSDKObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWSDKObject.h; sourceTree = "<group>"; };
 		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A7C2D7CCC9D735FE8E0B7E4E9771D52 /* XVIEWImageManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWImageManager-umbrella.h"; sourceTree = "<group>"; };
-		8B03D02300F086655E3FB3297974C7A8 /* RITLPhotoStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoStore.m; sourceTree = "<group>"; };
-		8C37AD58270FB946EE39126DAB14553D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		8C53BB0CF470AB7B22D76F1B2A3A289E /* RITLPhotoBrowseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBrowseCell.h; sourceTree = "<group>"; };
-		8E1EFFA256E43E486F5B9C7C7C0DADD7 /* RITLPhotoNavigationViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoNavigationViewModel.m; sourceTree = "<group>"; };
-		92FE5BEEBA5157744E7DC0372ABF8EBD /* RITLPhotosViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotosViewModel.m; sourceTree = "<group>"; };
-		93297D14B49B90C0C3DDCDEED036D69F /* PHFetchResult+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHFetchResult+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
+		8437C63A4F5F6BBACE9E9303C6593D18 /* RITLPhotoPublicViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoPublicViewModel.h; sourceTree = "<group>"; };
+		85E0A0D04395835575AE4F6604167AEC /* RITLPhotoBrowseCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBrowseCell.m; sourceTree = "<group>"; };
+		891DCC9EB5BF31DE8E55BD7F57229BB1 /* RITLPhotoNavigationViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoNavigationViewModel.m; sourceTree = "<group>"; };
+		8CA9B885AFE40E5C7F88AA607F51DB22 /* RITLPhotoBridgeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBridgeManager.m; sourceTree = "<group>"; };
+		8DA60EEA1D68B22F4EC27451B9A699EE /* RITLPhotoGroupCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoGroupCell.h; sourceTree = "<group>"; };
+		8E03FFB399ABC27080061B0562869724 /* RITLPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoPreviewController.m; sourceTree = "<group>"; };
+		8E7AFFB58F674C7EECDEA930373F8B31 /* RITLPhotoNavigationViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoNavigationViewModel.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9494531767B3775E927585B81C288C7D /* RITLPhotoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoConfig.h; sourceTree = "<group>"; };
+		94FA125C84E26FE6F1822AED13F50E47 /* RITLPhotoRequestStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoRequestStore.h; sourceTree = "<group>"; };
 		9608BAC313232F325E4BCA2164411882 /* Pods-XVIEWImageManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XVIEWImageManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		9660991DEDEB00A18C9A592574300520 /* RITLPhotoCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoCacheManager.h; sourceTree = "<group>"; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		9A463B28D8FB60D3C7A623578144AE2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9A6ABED2B3571F8D9F46F3FB43FCD1D3 /* PHAssetCollection+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHAssetCollection+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
+		98A8EBDAAAEE73A5C5C15422D9467DB9 /* PHAssetCollection+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHAssetCollection+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
+		98F80D5F31B1C99EF668427DDB569C4B /* RITLPhotoNavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoNavigationViewController.m; sourceTree = "<group>"; };
+		9939C7756EA7707C13261FBAE470F7EE /* PHImageRequestOptions+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHImageRequestOptions+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
 		9BE28D3E6841FC5D6257101BAB66B275 /* Pods-XVIEWImageManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWImageManager_Example.modulemap"; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A1680740911D9D8FF6D761E9425BC76E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A4954D2B937C8A3D9051913ED93B2382 /* RITLPhotoStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoStore.h; sourceTree = "<group>"; };
-		A97C16DBACD5B3B78D9005C37E43D1F3 /* XVIEWImageManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWImageManager-dummy.m"; sourceTree = "<group>"; };
-		A9B644B2A7DCB4DCFF87BF1E553932EB /* RITLPhotoCollectionViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoCollectionViewModel.h; sourceTree = "<group>"; };
+		A228666880044D7F940E01080095BB22 /* PHImageRequestOptions+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHImageRequestOptions+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
+		A66FAA5E6C60681D212485569B84FAB6 /* RITLPhotosViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotosViewModel.m; sourceTree = "<group>"; };
+		AAFEA05E29138E6C9E03D1C237B999EB /* RITLPhotoHandleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoHandleManager.m; sourceTree = "<group>"; };
 		ACD296AA56E4D0F0F62E0CB84F2E9CB4 /* Pods-XVIEWImageManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWImageManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		AFF1FA3935B8BEFDA8452EA0A12DF6CB /* Pods-XVIEWImageManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWImageManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A63686448BF2760A3525AAE911C889 /* RITLPhotoStoreConfiguraion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoStoreConfiguraion.m; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B675CA4BDD5FE341373525A05CE582F0 /* Pods-XVIEWImageManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWImageManager_Example-dummy.m"; sourceTree = "<group>"; };
-		BA1DE620A59AB1116D34DD9101B68487 /* UIView+RITLFrameChanged.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+RITLFrameChanged.m"; sourceTree = "<group>"; };
 		BA42D86A3CA361D5DDFBE178AA617E4C /* Pods-XVIEWImageManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWImageManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC6BBFE4924D098481741961DD6E3F37 /* RITLPhotoNavigationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoNavigationViewController.h; sourceTree = "<group>"; };
+		BC1FDDF920D43C41C365DC78C715392C /* UIView+RITLFrameChanged.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+RITLFrameChanged.m"; sourceTree = "<group>"; };
+		BE98F23C683449BB3B1E04A644BA16D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C00BE042C7690A70AFC6F6C9A399001D /* Pods-XVIEWImageManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWImageManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C1673E972F5742D827F9B67850D0A0BD /* Pods-XVIEWImageManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XVIEWImageManager_Tests.modulemap"; sourceTree = "<group>"; };
-		C20E9556BD8D4C2C3053BFD80BBB26EA /* RITLPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoPreviewController.h; sourceTree = "<group>"; };
-		C26444FC354C210E548E0D3AF2FA3838 /* RITLPhotoStoreConfiguraion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoStoreConfiguraion.m; sourceTree = "<group>"; };
-		C37D0D6E7D723DE534E0463EA2C65819 /* XVIEWImageManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWImageManager-prefix.pch"; sourceTree = "<group>"; };
-		C3903D68AAA3C2CB644F5B87A21A7222 /* RITLPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoViewController.h; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		C6EAF077318FB501D6105B7E2FF83DBC /* Pods-XVIEWImageManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWImageManager_Example-resources.sh"; sourceTree = "<group>"; };
-		C874AAD2888ED3A8A565617E8A095F39 /* RITLPhotoBaseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBaseViewModel.m; sourceTree = "<group>"; };
-		C8A2DEF775BD1BD66DDDCA1B7E46658B /* RITLPhotosViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotosViewModel.h; sourceTree = "<group>"; };
+		C7E571A98B1658DE5E0BB0DAACBD4AB3 /* RITLPhotoGroupViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoGroupViewModel.m; sourceTree = "<group>"; };
 		C8E8697EA9B6DC2EDF148D1514143681 /* Pods-XVIEWImageManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWImageManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CB17680537026D25A35AFEC67FCAD4E0 /* RITLPhotoBridgeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBridgeManager.h; sourceTree = "<group>"; };
-		CE785A8DEEEE09A24D2A2061B28F8A51 /* RITLPhotoBrowseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBrowseController.m; sourceTree = "<group>"; };
-		D0BC21DE33B3EC0C5F3AC08BF032B690 /* RITLPhotosCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotosCell.h; sourceTree = "<group>"; };
-		D15314D2F3D8917B277AAC21DB710FDC /* UIViewController+RITLPhotoAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RITLPhotoAlertController.h"; sourceTree = "<group>"; };
-		D35D0FCADF62A5578544DF51F155C4BA /* UIBar+RITLPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBar+RITLPhotos.m"; sourceTree = "<group>"; };
+		CCD008EBE6FD9ACBF8C966ED0E684B4E /* RITLPhotoBrowseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBrowseCell.h; sourceTree = "<group>"; };
+		CD76B9AC414E41A279A63BCB31FFCCCF /* RITLPhotoCollectionCellViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoCollectionCellViewModel.h; sourceTree = "<group>"; };
+		D323B8A9F79CD44C61B8B6C4427C9289 /* RITLPhotoBrowseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBrowseViewModel.m; sourceTree = "<group>"; };
 		D41E3E65680CC99A87E6CF17864FC936 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D642860BF293106A34D57D942A5BA62C /* RITLPhotosCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotosCell.m; sourceTree = "<group>"; };
-		D6F895A63084294F44497EE8A43A92DD /* XVIEWImageManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWImageManager.modulemap; sourceTree = "<group>"; };
-		D73CB7158663629A7F476864400E987D /* XVIEWImageManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWImageManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D7FA059DA9AD86AB27BC2D4C8930C383 /* RITLPhotoGroupCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoGroupCell.h; sourceTree = "<group>"; };
-		D8AB04C4AA6A2FA871F0B847D8A0785D /* RITLPhotoBaseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBaseViewModel.h; sourceTree = "<group>"; };
-		D8E4998F866D61A91800C566622093F4 /* RITLPhotoStoreConfiguraion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoStoreConfiguraion.h; sourceTree = "<group>"; };
-		DCBEC3A04895653BD2FCE03FD0BCF0C8 /* RITLPhotoCollectionCellViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoCollectionCellViewModel.h; sourceTree = "<group>"; };
-		DFABED15700479B77E392DB32149A604 /* PHFetchResult+RITLPhotoRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHFetchResult+RITLPhotoRepresentation.h"; sourceTree = "<group>"; };
-		E05AE0AB2EB13623D3794D92E8B0576A /* RITLPhotoTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoTableViewModel.h; sourceTree = "<group>"; };
-		E0C24F65334E0DA7B18F9B9B58A7C7B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62F6CBB202D45B41FCFBF885A050992 /* XVIEWImageManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWImageManager-umbrella.h"; sourceTree = "<group>"; };
+		D6626B3ED8947E742EA654B783454837 /* RITLPhotoBaseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBaseViewModel.m; sourceTree = "<group>"; };
+		D7FEEC5C9C74E7EF4C5BEA0C2A9391F7 /* RITLPhotosViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotosViewController.h; sourceTree = "<group>"; };
+		DD99D747C61A22BE190D552CF2D178F0 /* RITLPhotoGroupCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoGroupCell.m; sourceTree = "<group>"; };
+		E049D33DF491BFB199C0548C9EC130E8 /* RITLPhotoCollectionViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoCollectionViewModel.h; sourceTree = "<group>"; };
+		E06EE4EEE2E35D780B3C715AB55651F3 /* RITLPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoViewController.h; sourceTree = "<group>"; };
+		E16D93692EF1CCA3D61ABF331614C5FF /* RITLPhotoRequestStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoRequestStore.m; sourceTree = "<group>"; };
 		E2EFFB8672ED5015AE350AFE7200D0BA /* Pods-XVIEWImageManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWImageManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E42B1DC91B95BED3F4BD096F001B6E59 /* RITLPhotoBrowseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBrowseViewModel.h; sourceTree = "<group>"; };
+		E401CA80848158DD1AE41920865BE327 /* RITLPhotoBottomReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoBottomReusableView.h; sourceTree = "<group>"; };
+		E41203D75123FF826F4500831CEC028E /* RITLPhotoStoreConfiguraion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoStoreConfiguraion.h; sourceTree = "<group>"; };
+		E46EE51AC60A012D0E62D79A8D161411 /* UIButton+RITLBlockButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RITLBlockButton.m"; sourceTree = "<group>"; };
+		E5F5DCBE376EC4A7E184AD17F4BCB7E5 /* RITLPhotoBrowseController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotoBrowseController.m; sourceTree = "<group>"; };
+		E6A7BB3D3D16745999C477001AE84B88 /* RITLPhotoCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoCacheManager.h; sourceTree = "<group>"; };
 		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		E9783939C29C32215D3DBAC889E16099 /* PHImageRequestOptions+RITLPhotoRepresentation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHImageRequestOptions+RITLPhotoRepresentation.m"; sourceTree = "<group>"; };
-		E9A9A27E8888F84A2D7D4F170634A9A7 /* RITLPhotoGroupViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoGroupViewController.h; sourceTree = "<group>"; };
+		EB1ECD5AE16B3B1821F4E7544517165C /* RITLPhotoStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoStore.h; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		EE141E2C3F5333787C8AE41692736607 /* Pods_XVIEWImageManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XVIEWImageManager_Tests.framework; path = "Pods-XVIEWImageManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFB5F479E58150DF5B7BB55A4C3F9057 /* RITLPhotoGroupViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoGroupViewModel.h; sourceTree = "<group>"; };
 		F122400D65A9CF0D25EB7DAA724F59BE /* Pods-XVIEWImageManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWImageManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1B6A9B66C0F9AE37D520923E7E8E676 /* Pods-XVIEWImageManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWImageManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F437A286213632D8AB09844D3EDB8A9A /* RITLPhotosViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotosViewController.h; sourceTree = "<group>"; };
+		F1C2FF212F05E6F8E6F0C58A4AABE430 /* XVIEWImageManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWImageManager-dummy.m"; sourceTree = "<group>"; };
+		F1F2EC2EE1C518E9A4363B40AAB17988 /* RITLPhotosCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RITLPhotosCell.m; sourceTree = "<group>"; };
+		F4396CF54FD2C899E77A059A127CEE5B /* XVIEWImageManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XVIEWImageManager.modulemap; sourceTree = "<group>"; };
 		F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F73E702B07F3639F45098255B4450DC3 /* RITLPhotoTableCellViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RITLPhotoTableCellViewModel.h; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		F8D612E08C33BB754D179F094D7C34DC /* Pods-XVIEWImageManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWImageManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
@@ -322,68 +328,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04B06E02376265F4D48D96610DA378E1 /* PhotosStore */ = {
+		27F4D8276A4E7A03F8686920FC650CDD /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				893BA39B6BE24560AAF1331284C2BD77 /* Localizable.strings */,
-				364D751C298D00A2E5FDE09CCC3C7314 /* RITLPhotoRequestStore.h */,
-				17AE29D8AAADF3A215ED05FD40DC8498 /* RITLPhotoRequestStore.m */,
-				A4954D2B937C8A3D9051913ED93B2382 /* RITLPhotoStore.h */,
-				8B03D02300F086655E3FB3297974C7A8 /* RITLPhotoStore.m */,
-				D8E4998F866D61A91800C566622093F4 /* RITLPhotoStoreConfiguraion.h */,
-				C26444FC354C210E548E0D3AF2FA3838 /* RITLPhotoStoreConfiguraion.m */,
+				4DEEC2367C10432E2B552A34C8953E57 /* PHAsset+RITLPhotoRepresentation.h */,
+				4ED83E78CA8788CC7034F60C254D2C53 /* PHAsset+RITLPhotoRepresentation.m */,
+				16421E88BE37BF841D0568223B85E050 /* PHAssetCollection+RITLPhotoRepresentation.h */,
+				98A8EBDAAAEE73A5C5C15422D9467DB9 /* PHAssetCollection+RITLPhotoRepresentation.m */,
+				79773E59EC2D2AB0E7C81A93FEED4B3F /* PHFetchResult+RITLPhotoRepresentation.h */,
+				754C634F7CF364A82343941098A697CD /* PHFetchResult+RITLPhotoRepresentation.m */,
+				9939C7756EA7707C13261FBAE470F7EE /* PHImageRequestOptions+RITLPhotoRepresentation.h */,
+				A228666880044D7F940E01080095BB22 /* PHImageRequestOptions+RITLPhotoRepresentation.m */,
+				63B20251F4DF9C401BB21FEFFDE61C30 /* UIBar+RITLPhotos.h */,
+				33AFE6E2CCDE1F9563A3BC313CB66F6D /* UIBar+RITLPhotos.m */,
+				3D92D72355FFE4B28DEB33666A4700DE /* UIButton+RITLBlockButton.h */,
+				E46EE51AC60A012D0E62D79A8D161411 /* UIButton+RITLBlockButton.m */,
+				25D1F7CA8457B4F5BA9557DB79922C2D /* UIView+RITLFrameChanged.h */,
+				BC1FDDF920D43C41C365DC78C715392C /* UIView+RITLFrameChanged.m */,
+				24DCEEF706D5F5E13237EE606B66F97F /* UIViewController+RITLPhotoAlertController.h */,
+				52C8DDEE452C9B237D285B7D4EB3DBF5 /* UIViewController+RITLPhotoAlertController.m */,
 			);
-			name = PhotosStore;
-			path = XVIEWImageManager/Classes/PhotosFiles/PhotosStore;
+			name = Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
-		06417C832EC505B4A2AF91494829343E /* BaseClass */ = {
+		38487FF2FFE9F3E5031BD4A44703C575 /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				D8AB04C4AA6A2FA871F0B847D8A0785D /* RITLPhotoBaseViewModel.h */,
-				C874AAD2888ED3A8A565617E8A095F39 /* RITLPhotoBaseViewModel.m */,
+				CD76B9AC414E41A279A63BCB31FFCCCF /* RITLPhotoCollectionCellViewModel.h */,
+				E049D33DF491BFB199C0548C9EC130E8 /* RITLPhotoCollectionViewModel.h */,
+				8437C63A4F5F6BBACE9E9303C6593D18 /* RITLPhotoPublicViewModel.h */,
+				5BC8A22F125861077A881830378A0770 /* RITLPhotoScrollViewModel.h */,
+				F73E702B07F3639F45098255B4450DC3 /* RITLPhotoTableCellViewModel.h */,
+				18DD3A6C8830E322E3D2493093540EFD /* RITLPhotoTableViewModel.h */,
+				650703C636385B8F52871A920A58E8A4 /* RITLPhotoTextFieldViewModel.h */,
+				E06EE4EEE2E35D780B3C715AB55651F3 /* RITLPhotoViewController.h */,
 			);
-			name = BaseClass;
-			path = XVIEWImageManager/Classes/PhotosFiles/BaseClass;
+			name = Protocol;
+			path = Protocol;
 			sourceTree = "<group>";
 		};
-		2185539A8AA2D4568B464A137DC5F4DB /* Support Files */ = {
+		3B7844AD19B40C89BA032E50456A3BED /* XVIEWImageManager */ = {
 			isa = PBXGroup;
 			children = (
-				E0C24F65334E0DA7B18F9B9B58A7C7B3 /* Info.plist */,
-				D6F895A63084294F44497EE8A43A92DD /* XVIEWImageManager.modulemap */,
-				79FC1011D26F03DB87B19AAC9134DA39 /* XVIEWImageManager.xcconfig */,
-				A97C16DBACD5B3B78D9005C37E43D1F3 /* XVIEWImageManager-dummy.m */,
-				C37D0D6E7D723DE534E0463EA2C65819 /* XVIEWImageManager-prefix.pch */,
-				8A7C2D7CCC9D735FE8E0B7E4E9771D52 /* XVIEWImageManager-umbrella.h */,
+				4CC1A48559C7F45875BA8E77137CEA41 /* ImageManager.h */,
+				67BBE00E9D503C5510A932C5E3AA83AD /* ImageManager.m */,
+				803EB838390E4C199727834DD5F518B6 /* XVIEWSDKObject.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XVIEWImageManager";
+			name = XVIEWImageManager;
+			path = XVIEWImageManager/Classes/XVIEWImageManager;
 			sourceTree = "<group>";
 		};
-		25F4042AA0B70F2D2E842F3F0FB33575 /* Supporting */ = {
+		3E0BE4816404F8850CF3FE425796F1A8 /* Group */ = {
 			isa = PBXGroup;
 			children = (
-				9494531767B3775E927585B81C288C7D /* RITLPhotoConfig.h */,
-				79660C41653160144D76FBCD6FB1E438 /* Category */,
-				AB9969430ADB44E0ECBCBA9C2EB8FF0C /* Protocol */,
-			);
-			name = Supporting;
-			path = XVIEWImageManager/Classes/PhotosFiles/Supporting;
-			sourceTree = "<group>";
-		};
-		4E254FC950A49E8E5FA3DFBAA30EF3CF /* Group */ = {
-			isa = PBXGroup;
-			children = (
-				D7FA059DA9AD86AB27BC2D4C8930C383 /* RITLPhotoGroupCell.h */,
-				10563BCFEDCAD524A48F9E8EA3483E19 /* RITLPhotoGroupCell.m */,
-				E9A9A27E8888F84A2D7D4F170634A9A7 /* RITLPhotoGroupViewController.h */,
-				58F30B77BE43DCD5299197858A6475CD /* RITLPhotoGroupViewController.m */,
-				EFB5F479E58150DF5B7BB55A4C3F9057 /* RITLPhotoGroupViewModel.h */,
-				23367EBEACBFD011FC7821DC73E7A0AC /* RITLPhotoGroupViewModel.m */,
+				8DA60EEA1D68B22F4EC27451B9A699EE /* RITLPhotoGroupCell.h */,
+				DD99D747C61A22BE190D552CF2D178F0 /* RITLPhotoGroupCell.m */,
+				76D9A38E505E6678C6AB5E0347D562EC /* RITLPhotoGroupViewController.h */,
+				5F4FA7386B953E9CAB714C1F606262D7 /* RITLPhotoGroupViewController.m */,
+				0255EA4687CE5568F5ADF151729600C8 /* RITLPhotoGroupViewModel.h */,
+				C7E571A98B1658DE5E0BB0DAACBD4AB3 /* RITLPhotoGroupViewModel.m */,
 			);
 			name = Group;
-			path = XVIEWImageManager/Classes/PhotosFiles/Group;
+			path = Group;
 			sourceTree = "<group>";
 		};
 		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
@@ -395,24 +402,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5C8024B20B05F077B9126D943AE0B3F6 /* Development Pods */ = {
+		5E7C96AC556807BCC9976082B19537B1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				758033662E3E8B3BA5AC7A6568E436E5 /* XVIEWImageManager */,
+				0051E695314B6E3B4ADF7CF82F466FFD /* LICENSE */,
+				BE98F23C683449BB3B1E04A644BA16D0 /* README.md */,
+				36C018894E683471DDCE000E62302A3E /* XVIEWImageManager.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		651B09FF2425663CFDDC7B6180FFF34C /* Navigation */ = {
+		70F8B119467D18D78D78AFDE7EF51A5F /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				BC6BBFE4924D098481741961DD6E3F37 /* RITLPhotoNavigationViewController.h */,
-				0EFDA14A072378127643DFFC7E2AABD1 /* RITLPhotoNavigationViewController.m */,
-				2B5E79D473ECE7246E59E53FE953BD6D /* RITLPhotoNavigationViewModel.h */,
-				8E1EFFA256E43E486F5B9C7C7C0DADD7 /* RITLPhotoNavigationViewModel.m */,
+				7BC9C3C2DB5F873769B334438359F42F /* RITLPhotoConfig.h */,
+				27F4D8276A4E7A03F8686920FC650CDD /* Category */,
+				38487FF2FFE9F3E5031BD4A44703C575 /* Protocol */,
 			);
-			name = Navigation;
-			path = XVIEWImageManager/Classes/PhotosFiles/Navigation;
+			name = Supporting;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 		71E5D81114ED1566BFD40A738D5F6234 /* Targets Support Files */ = {
@@ -424,53 +432,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		758033662E3E8B3BA5AC7A6568E436E5 /* XVIEWImageManager */ = {
-			isa = PBXGroup;
-			children = (
-				06417C832EC505B4A2AF91494829343E /* BaseClass */,
-				F200BFEA213FA18038BA64AAB990D010 /* Brower */,
-				4E254FC950A49E8E5FA3DFBAA30EF3CF /* Group */,
-				651B09FF2425663CFDDC7B6180FFF34C /* Navigation */,
-				84E4A335ECAD9F7AC5EA28AC4604A993 /* PhotoDataManager */,
-				C50B5377FCDFEA9F3D30C717BC02FEBB /* Photos */,
-				04B06E02376265F4D48D96610DA378E1 /* PhotosStore */,
-				CB6CD9D453AD97A37E108B5468BF7E39 /* Pod */,
-				2185539A8AA2D4568B464A137DC5F4DB /* Support Files */,
-				25F4042AA0B70F2D2E842F3F0FB33575 /* Supporting */,
-			);
-			name = XVIEWImageManager;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		79660C41653160144D76FBCD6FB1E438 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				13D3CA9D557C6FFCA44298BD81A4CB48 /* PHAsset+RITLPhotoRepresentation.h */,
-				7F9262EE277ACF38577BF2A43ABE6A47 /* PHAsset+RITLPhotoRepresentation.m */,
-				9A6ABED2B3571F8D9F46F3FB43FCD1D3 /* PHAssetCollection+RITLPhotoRepresentation.h */,
-				0F8C7116D425F5F5EB9EE9C8E4B652D5 /* PHAssetCollection+RITLPhotoRepresentation.m */,
-				DFABED15700479B77E392DB32149A604 /* PHFetchResult+RITLPhotoRepresentation.h */,
-				93297D14B49B90C0C3DDCDEED036D69F /* PHFetchResult+RITLPhotoRepresentation.m */,
-				13770C9BEDE80D0BC19BA702D11B33E6 /* PHImageRequestOptions+RITLPhotoRepresentation.h */,
-				E9783939C29C32215D3DBAC889E16099 /* PHImageRequestOptions+RITLPhotoRepresentation.m */,
-				08DF40D8C5193E2C42765BF509682948 /* UIBar+RITLPhotos.h */,
-				D35D0FCADF62A5578544DF51F155C4BA /* UIBar+RITLPhotos.m */,
-				16CDF0D1BC05F4C80B2F731070B3985D /* UIButton+RITLBlockButton.h */,
-				28F7D35F104A52FDF1792981044C22C6 /* UIButton+RITLBlockButton.m */,
-				02CA47985853C5BEB618A3018D4C05CC /* UIView+RITLFrameChanged.h */,
-				BA1DE620A59AB1116D34DD9101B68487 /* UIView+RITLFrameChanged.m */,
-				D15314D2F3D8917B277AAC21DB710FDC /* UIViewController+RITLPhotoAlertController.h */,
-				594DF9A61EF62FC80EE9E50A5DC40FA3 /* UIViewController+RITLPhotoAlertController.m */,
-			);
-			name = Category;
-			path = Category;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5C8024B20B05F077B9126D943AE0B3F6 /* Development Pods */,
+				F32AB1A542B6C99E941040A573DBE783 /* Development Pods */,
 				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
 				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
 				E943BF5F004FD375CC2538D26451034E /* Products */,
@@ -478,18 +444,31 @@
 			);
 			sourceTree = "<group>";
 		};
-		84E4A335ECAD9F7AC5EA28AC4604A993 /* PhotoDataManager */ = {
+		8656BA9B4FF6F47FC6E52CBA77C46FB7 /* PhotosStore */ = {
 			isa = PBXGroup;
 			children = (
-				CB17680537026D25A35AFEC67FCAD4E0 /* RITLPhotoBridgeManager.h */,
-				785D6DAB6EDD2CC3FDF6FCC1DF2F93F5 /* RITLPhotoBridgeManager.m */,
-				9660991DEDEB00A18C9A592574300520 /* RITLPhotoCacheManager.h */,
-				0F6B02BA27CC34540EEA7D1058EC589E /* RITLPhotoCacheManager.mm */,
-				2311E9AC4E5D1031C37CB0BB82DE817F /* RITLPhotoHandleManager.h */,
-				79DF4ABAC50888EB33CCD407FA235069 /* RITLPhotoHandleManager.m */,
+				6129681CDF191FD5866EA94D0897D864 /* Localizable.strings */,
+				94FA125C84E26FE6F1822AED13F50E47 /* RITLPhotoRequestStore.h */,
+				E16D93692EF1CCA3D61ABF331614C5FF /* RITLPhotoRequestStore.m */,
+				EB1ECD5AE16B3B1821F4E7544517165C /* RITLPhotoStore.h */,
+				365DFDE6936387194F5DB7101C493AE4 /* RITLPhotoStore.m */,
+				E41203D75123FF826F4500831CEC028E /* RITLPhotoStoreConfiguraion.h */,
+				B0A63686448BF2760A3525AAE911C889 /* RITLPhotoStoreConfiguraion.m */,
 			);
-			name = PhotoDataManager;
-			path = XVIEWImageManager/Classes/PhotosFiles/PhotoDataManager;
+			name = PhotosStore;
+			path = PhotosStore;
+			sourceTree = "<group>";
+		};
+		86B3C1BA23BFC0272090CEE8F434B488 /* XVIEWImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				C52B8A5B0B85CBB61636EB4C906A175B /* PhotosFiles */,
+				5E7C96AC556807BCC9976082B19537B1 /* Pod */,
+				C24BE212FF896E469FB36893BBA0A899 /* Support Files */,
+				3B7844AD19B40C89BA032E50456A3BED /* XVIEWImageManager */,
+			);
+			name = XVIEWImageManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8DBAA7B0A331F7EF484429BB1F0C434D /* Pods-XVIEWImageManager_Example */ = {
@@ -508,6 +487,24 @@
 			);
 			name = "Pods-XVIEWImageManager_Example";
 			path = "Target Support Files/Pods-XVIEWImageManager_Example";
+			sourceTree = "<group>";
+		};
+		8EE5D41385B904F56BDC226896A666CA /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				E401CA80848158DD1AE41920865BE327 /* RITLPhotoBottomReusableView.h */,
+				7775996510B9C8325D4FE68A196C2706 /* RITLPhotoBottomReusableView.m */,
+				7E149E0A562202B5E02AE6D76DF7268C /* RITLPhotoPreviewController.h */,
+				8E03FFB399ABC27080061B0562869724 /* RITLPhotoPreviewController.m */,
+				055CBF6EC411EF6304A4BF425F9BBD1A /* RITLPhotosCell.h */,
+				F1F2EC2EE1C518E9A4363B40AAB17988 /* RITLPhotosCell.m */,
+				D7FEEC5C9C74E7EF4C5BEA0C2A9391F7 /* RITLPhotosViewController.h */,
+				3372809E7D92DBDA47D25AC6001B680C /* RITLPhotosViewController.m */,
+				50D14EDDFE3092302B5E91C53AD4D7DF /* RITLPhotosViewModel.h */,
+				A66FAA5E6C60681D212485569B84FAB6 /* RITLPhotosViewModel.m */,
+			);
+			name = Photos;
+			path = Photos;
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -544,48 +541,44 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		AB9969430ADB44E0ECBCBA9C2EB8FF0C /* Protocol */ = {
+		AB7F81EA590E4DB90EC885BB998C64EB /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				DCBEC3A04895653BD2FCE03FD0BCF0C8 /* RITLPhotoCollectionCellViewModel.h */,
-				A9B644B2A7DCB4DCFF87BF1E553932EB /* RITLPhotoCollectionViewModel.h */,
-				7059DDA2ED06C0F7C51ED0191C02170B /* RITLPhotoPublicViewModel.h */,
-				4ACA8B34CDF9CC446B7369380A56CD4C /* RITLPhotoScrollViewModel.h */,
-				64F21D76E96AD6291BDF5F1E4D8C7026 /* RITLPhotoTableCellViewModel.h */,
-				E05AE0AB2EB13623D3794D92E8B0576A /* RITLPhotoTableViewModel.h */,
-				34224C759F424936D428E6CEB6CF2F6C /* RITLPhotoTextFieldViewModel.h */,
-				C3903D68AAA3C2CB644F5B87A21A7222 /* RITLPhotoViewController.h */,
+				1B72187921F49A69DD68D3334BF544FE /* RITLPhotoBaseViewModel.h */,
+				D6626B3ED8947E742EA654B783454837 /* RITLPhotoBaseViewModel.m */,
 			);
-			name = Protocol;
-			path = Protocol;
+			name = BaseClass;
+			path = BaseClass;
 			sourceTree = "<group>";
 		};
-		C50B5377FCDFEA9F3D30C717BC02FEBB /* Photos */ = {
+		C24BE212FF896E469FB36893BBA0A899 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E082345A278BD929A421E1187CF4489 /* RITLPhotoBottomReusableView.h */,
-				635C42E2442331735EEE5014A7EA4CE7 /* RITLPhotoBottomReusableView.m */,
-				C20E9556BD8D4C2C3053BFD80BBB26EA /* RITLPhotoPreviewController.h */,
-				50CE86F3191AC0A5FC6220C464C9AD61 /* RITLPhotoPreviewController.m */,
-				D0BC21DE33B3EC0C5F3AC08BF032B690 /* RITLPhotosCell.h */,
-				D642860BF293106A34D57D942A5BA62C /* RITLPhotosCell.m */,
-				F437A286213632D8AB09844D3EDB8A9A /* RITLPhotosViewController.h */,
-				74A5446B65F6FC9B53AA885F4A4ED35E /* RITLPhotosViewController.m */,
-				C8A2DEF775BD1BD66DDDCA1B7E46658B /* RITLPhotosViewModel.h */,
-				92FE5BEEBA5157744E7DC0372ABF8EBD /* RITLPhotosViewModel.m */,
+				09462EA7E1B3C1AA170540F2BA5BB215 /* Info.plist */,
+				F4396CF54FD2C899E77A059A127CEE5B /* XVIEWImageManager.modulemap */,
+				50DB147ACEEE9B38CB5BC2D15E1517C6 /* XVIEWImageManager.xcconfig */,
+				F1C2FF212F05E6F8E6F0C58A4AABE430 /* XVIEWImageManager-dummy.m */,
+				333EDF137CBAA364397C44D1B11BB118 /* XVIEWImageManager-prefix.pch */,
+				D62F6CBB202D45B41FCFBF885A050992 /* XVIEWImageManager-umbrella.h */,
 			);
-			name = Photos;
-			path = XVIEWImageManager/Classes/PhotosFiles/Photos;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XVIEWImageManager";
 			sourceTree = "<group>";
 		};
-		CB6CD9D453AD97A37E108B5468BF7E39 /* Pod */ = {
+		C52B8A5B0B85CBB61636EB4C906A175B /* PhotosFiles */ = {
 			isa = PBXGroup;
 			children = (
-				A1680740911D9D8FF6D761E9425BC76E /* LICENSE */,
-				9A463B28D8FB60D3C7A623578144AE2F /* README.md */,
-				D73CB7158663629A7F476864400E987D /* XVIEWImageManager.podspec */,
+				AB7F81EA590E4DB90EC885BB998C64EB /* BaseClass */,
+				D94F66B536103ED8841F01F42F2A92D0 /* Brower */,
+				3E0BE4816404F8850CF3FE425796F1A8 /* Group */,
+				E5E421540DFBFE54219F20A408C0AFDE /* Navigation */,
+				E762522801AEEA0A87F922621ECB9223 /* PhotoDataManager */,
+				8EE5D41385B904F56BDC226896A666CA /* Photos */,
+				8656BA9B4FF6F47FC6E52CBA77C46FB7 /* PhotosStore */,
+				70F8B119467D18D78D78AFDE7EF51A5F /* Supporting */,
 			);
-			name = Pod;
+			name = PhotosFiles;
+			path = XVIEWImageManager/Classes/PhotosFiles;
 			sourceTree = "<group>";
 		};
 		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
@@ -600,6 +593,20 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		D94F66B536103ED8841F01F42F2A92D0 /* Brower */ = {
+			isa = PBXGroup;
+			children = (
+				CCD008EBE6FD9ACBF8C966ED0E684B4E /* RITLPhotoBrowseCell.h */,
+				85E0A0D04395835575AE4F6604167AEC /* RITLPhotoBrowseCell.m */,
+				3D2E6460A450858050736A2642017139 /* RITLPhotoBrowseController.h */,
+				E5F5DCBE376EC4A7E184AD17F4BCB7E5 /* RITLPhotoBrowseController.m */,
+				79FD1504E8E8EAA9303C5FD44FA3661C /* RITLPhotoBrowseViewModel.h */,
+				D323B8A9F79CD44C61B8B6C4427C9289 /* RITLPhotoBrowseViewModel.m */,
+			);
+			name = Brower;
+			path = Brower;
 			sourceTree = "<group>";
 		};
 		DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */ = {
@@ -629,6 +636,32 @@
 			path = "Target Support Files/Pods-XVIEWImageManager_Tests";
 			sourceTree = "<group>";
 		};
+		E5E421540DFBFE54219F20A408C0AFDE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				617BFD3CFF3284C8C66AFC59C1BE8AA8 /* RITLPhotoNavigationViewController.h */,
+				98F80D5F31B1C99EF668427DDB569C4B /* RITLPhotoNavigationViewController.m */,
+				8E7AFFB58F674C7EECDEA930373F8B31 /* RITLPhotoNavigationViewModel.h */,
+				891DCC9EB5BF31DE8E55BD7F57229BB1 /* RITLPhotoNavigationViewModel.m */,
+			);
+			name = Navigation;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		E762522801AEEA0A87F922621ECB9223 /* PhotoDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A187BC66645FC06955FE6A61A6CBFBD /* RITLPhotoBridgeManager.h */,
+				8CA9B885AFE40E5C7F88AA607F51DB22 /* RITLPhotoBridgeManager.m */,
+				E6A7BB3D3D16745999C477001AE84B88 /* RITLPhotoCacheManager.h */,
+				17E7015FE0054C080C6C25BCAF8ED8F2 /* RITLPhotoCacheManager.mm */,
+				519EC8968564940BD510574509AACFBC /* RITLPhotoHandleManager.h */,
+				AAFEA05E29138E6C9E03D1C237B999EB /* RITLPhotoHandleManager.m */,
+			);
+			name = PhotoDataManager;
+			path = PhotoDataManager;
+			sourceTree = "<group>";
+		};
 		E943BF5F004FD375CC2538D26451034E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -648,68 +681,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F200BFEA213FA18038BA64AAB990D010 /* Brower */ = {
+		F32AB1A542B6C99E941040A573DBE783 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C53BB0CF470AB7B22D76F1B2A3A289E /* RITLPhotoBrowseCell.h */,
-				796679A60F2FB9F5FB052BF7B7E2243A /* RITLPhotoBrowseCell.m */,
-				21C78ED09B643CA2F488F9131ECF11BB /* RITLPhotoBrowseController.h */,
-				CE785A8DEEEE09A24D2A2061B28F8A51 /* RITLPhotoBrowseController.m */,
-				E42B1DC91B95BED3F4BD096F001B6E59 /* RITLPhotoBrowseViewModel.h */,
-				6D6680E9D05C30956170040C9AA6FF85 /* RITLPhotoBrowseViewModel.m */,
+				86B3C1BA23BFC0272090CEE8F434B488 /* XVIEWImageManager */,
 			);
-			name = Brower;
-			path = XVIEWImageManager/Classes/PhotosFiles/Brower;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		214BD6B68468EB44B675BA8BF74936F5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA3E909737CE681FCDCAB22FDF523811 /* PHAsset+RITLPhotoRepresentation.h in Headers */,
-				8BB5754CDE77A9AF9B20A26418D56710 /* PHAssetCollection+RITLPhotoRepresentation.h in Headers */,
-				F948DEE3E78E9D7167F5EB11BB63DF2E /* PHFetchResult+RITLPhotoRepresentation.h in Headers */,
-				A5369EC1056987DC5C99DD4B5320E617 /* PHImageRequestOptions+RITLPhotoRepresentation.h in Headers */,
-				824BF77FCAA8D58BCCBC656ED4774BDD /* RITLPhotoBaseViewModel.h in Headers */,
-				B6B4412D7F727EF87CF1BE4748E24EF9 /* RITLPhotoBottomReusableView.h in Headers */,
-				B52E09EF0ED55A5401814084068DC4DE /* RITLPhotoBridgeManager.h in Headers */,
-				434375E85EC286072F1CD2D5EC1C2AE0 /* RITLPhotoBrowseCell.h in Headers */,
-				8958646E4BB6252B957B1AC1A39AEB7D /* RITLPhotoBrowseController.h in Headers */,
-				8454D52B0124C75C1BAC1AC8A4DF8713 /* RITLPhotoBrowseViewModel.h in Headers */,
-				63919D52A8D347A7D27E2937A9C40605 /* RITLPhotoCacheManager.h in Headers */,
-				6364C57142E89499EA8C0ACA3273E335 /* RITLPhotoCollectionCellViewModel.h in Headers */,
-				CD6F2A18F21702769C3A1DC52DB4C635 /* RITLPhotoCollectionViewModel.h in Headers */,
-				D979B8D014A1CF97A1ABE3D36F2D70B6 /* RITLPhotoConfig.h in Headers */,
-				AA0C03A2EA54814CB9112F1E16020736 /* RITLPhotoGroupCell.h in Headers */,
-				DF4F24A9AB478EF3CBAB1D7B6AD091CD /* RITLPhotoGroupViewController.h in Headers */,
-				6BA4A2A2B6FE27BFE01E63170883BA6F /* RITLPhotoGroupViewModel.h in Headers */,
-				F2BEE2FBC33BD58EA15AFAF8499B2966 /* RITLPhotoHandleManager.h in Headers */,
-				C0A9B61B2282F3D140D0BE72BEFDF537 /* RITLPhotoNavigationViewController.h in Headers */,
-				C80FEDD66D6D0309377355D531F5E281 /* RITLPhotoNavigationViewModel.h in Headers */,
-				7FB495ED4570442A21D4ED71147A3C32 /* RITLPhotoPreviewController.h in Headers */,
-				7964B4D726031D10EC2ECD43BBAAE656 /* RITLPhotoPublicViewModel.h in Headers */,
-				9B50557AA5A89D3AAF1859CBC3F03973 /* RITLPhotoRequestStore.h in Headers */,
-				CCE197D1685269707F6AE050268739B2 /* RITLPhotosCell.h in Headers */,
-				ABC4CD49FD2B9A764EFC6C236CB1ED5C /* RITLPhotoScrollViewModel.h in Headers */,
-				0350BA70EE3EF1750A6A275183645B0C /* RITLPhotoStore.h in Headers */,
-				563B4DCB758DEE7B6970C7D0297498FB /* RITLPhotoStoreConfiguraion.h in Headers */,
-				597F55807AD6E1AB194C9BB96B48FC85 /* RITLPhotosViewController.h in Headers */,
-				570BF321C1FC80B68240A87C21F22D4A /* RITLPhotosViewModel.h in Headers */,
-				B3AFD4C91567C5B40C4B1A8ED8653F28 /* RITLPhotoTableCellViewModel.h in Headers */,
-				638FB42E6FF92C9FA1446E96D098D9DC /* RITLPhotoTableViewModel.h in Headers */,
-				0A479215103F3492307E674D3F9FE6F7 /* RITLPhotoTextFieldViewModel.h in Headers */,
-				DE678A122B987C9D42079AF387BCF223 /* RITLPhotoViewController.h in Headers */,
-				301E3DE4F4F94653350DB92707D0A6B6 /* UIBar+RITLPhotos.h in Headers */,
-				B3291551CDCCCAD487F807FBA795BFFD /* UIButton+RITLBlockButton.h in Headers */,
-				01D71418CE1D6403FEE0C4B06DAF2121 /* UIView+RITLFrameChanged.h in Headers */,
-				2CBDA5EF07CE9F735B96EA977E41B90D /* UIViewController+RITLPhotoAlertController.h in Headers */,
-				615013480FAE5CF68D11118C9E7DB697 /* XVIEWImageManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C658DC9323CD38D0B325DF6D59D2E67 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -723,6 +705,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				8588D723F5ECB13B14DB905E57739895 /* Pods-XVIEWImageManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C2DC1469F3EBAABB13CD6A3530DF1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4189758368A7E758CEEBBE2FB7C0C4 /* ImageManager.h in Headers */,
+				CF4525F924429F9DA509472C1CE3F8A8 /* PHAsset+RITLPhotoRepresentation.h in Headers */,
+				6485FFC9D3C7ACF8BCB8D204EE0C5341 /* PHAssetCollection+RITLPhotoRepresentation.h in Headers */,
+				E440ACDD25A9746304234C65ADC595E7 /* PHFetchResult+RITLPhotoRepresentation.h in Headers */,
+				9DD505773DDD9A988640A16C22657FA6 /* PHImageRequestOptions+RITLPhotoRepresentation.h in Headers */,
+				8292ED64A59BAFE9855088A1A2667543 /* RITLPhotoBaseViewModel.h in Headers */,
+				1AE01AC4C0548C28F74E5B8CF184067E /* RITLPhotoBottomReusableView.h in Headers */,
+				F40656BD15DE7B5D877535777D8B526B /* RITLPhotoBridgeManager.h in Headers */,
+				11EE85DE831A8BB172D8353AD303C6D0 /* RITLPhotoBrowseCell.h in Headers */,
+				1CAB7D89710EE1A5A3BF047F14D774D7 /* RITLPhotoBrowseController.h in Headers */,
+				36D7B2D0D62E043BBAD4F58D89D17605 /* RITLPhotoBrowseViewModel.h in Headers */,
+				BE2741E15258D7FF0029D22123F66E46 /* RITLPhotoCacheManager.h in Headers */,
+				7FCF707FCF8FFED841B59E21E4947467 /* RITLPhotoCollectionCellViewModel.h in Headers */,
+				2CB204CD55E3B80FF76D66898AD73CE3 /* RITLPhotoCollectionViewModel.h in Headers */,
+				33E4061C38C813896A6C771A3B584B2A /* RITLPhotoConfig.h in Headers */,
+				30E9526821069C33423E39C49B7F8391 /* RITLPhotoGroupCell.h in Headers */,
+				283C6600BD6DFDD150AF53FDB47E3380 /* RITLPhotoGroupViewController.h in Headers */,
+				5E673E0F43C3C9C892D04870590179BF /* RITLPhotoGroupViewModel.h in Headers */,
+				72DB4FE7B98CB60BF4A7FF5BA34DA6EF /* RITLPhotoHandleManager.h in Headers */,
+				7A90252F6A5F1782A6D1A7D0B34C2686 /* RITLPhotoNavigationViewController.h in Headers */,
+				6E2876012163D90C6F988AF17029B268 /* RITLPhotoNavigationViewModel.h in Headers */,
+				C6D218C15E36026D345C9BFB1DE4D346 /* RITLPhotoPreviewController.h in Headers */,
+				E134FEBE5BB55F58573A7303580033CE /* RITLPhotoPublicViewModel.h in Headers */,
+				3E5ABEF66A3A494494DF32A7457B44AE /* RITLPhotoRequestStore.h in Headers */,
+				F71E5D77A68AE904CCDAE6DE53542C88 /* RITLPhotosCell.h in Headers */,
+				4A69BEA3BFC471E68532AE76F71CF2FE /* RITLPhotoScrollViewModel.h in Headers */,
+				68F62B64C7EC022E74E3318A46EF7DEB /* RITLPhotoStore.h in Headers */,
+				79B8B34C25703FAE642922E774395F04 /* RITLPhotoStoreConfiguraion.h in Headers */,
+				524F44DD616861E3DF99096E07A124B6 /* RITLPhotosViewController.h in Headers */,
+				CFB13E1713EEBB005C37C80A261385D9 /* RITLPhotosViewModel.h in Headers */,
+				42637EBA40E509406DDB615BCB75D05B /* RITLPhotoTableCellViewModel.h in Headers */,
+				A502F669E2EB324899B53D2FE59B9753 /* RITLPhotoTableViewModel.h in Headers */,
+				B1C5C47509B2FE6E640E2E7DB69232BE /* RITLPhotoTextFieldViewModel.h in Headers */,
+				41114861432C16D0FA3FE755512CE7B0 /* RITLPhotoViewController.h in Headers */,
+				840241982CD98EA1C8E202B3C8B09312 /* UIBar+RITLPhotos.h in Headers */,
+				2A6ECB3FAC77CD668AAB085B42D03CA5 /* UIButton+RITLBlockButton.h in Headers */,
+				8B243A404B3467E38F89FF3A6011BC7F /* UIView+RITLFrameChanged.h in Headers */,
+				E3CD82A5C43C0D5E529B7751B1F5BBA8 /* UIViewController+RITLPhotoAlertController.h in Headers */,
+				DB22FF8F6629A397754725AA8311F7D6 /* XVIEWImageManager-umbrella.h in Headers */,
+				40C2AC508299E6B9A7D725FABF7D5D8B /* XVIEWSDKObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,9 +785,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B711AD984F0D98119AF6453F6C0B3664 /* Build configuration list for PBXNativeTarget "XVIEWImageManager" */;
 			buildPhases = (
-				B58DC76D38CF94E41F29A922BA6DC575 /* Sources */,
+				D9477CBF48885F1FDF4D102DD10DDB39 /* Sources */,
 				DF2A06D32BE1BBF9B4DBA96293412AF6 /* Frameworks */,
-				214BD6B68468EB44B675BA8BF74936F5 /* Headers */,
+				C2C2DC1469F3EBAABB13CD6A3530DF1D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -880,41 +909,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B58DC76D38CF94E41F29A922BA6DC575 /* Sources */ = {
+		D9477CBF48885F1FDF4D102DD10DDB39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B38C15F997D701F7887FD6D50B76F5A /* Localizable.strings in Sources */,
-				B169E99681F6070E50E361EC3BB67C8A /* Localizable.strings in Sources */,
-				28DC9A844D6737CCEF4F73C31E4BA83A /* PHAsset+RITLPhotoRepresentation.m in Sources */,
-				A8A1E031D3F926BF89F62F5E29380E01 /* PHAssetCollection+RITLPhotoRepresentation.m in Sources */,
-				AEF16F210C185D51AE382D90365E9994 /* PHFetchResult+RITLPhotoRepresentation.m in Sources */,
-				21F4E6B41EC7E499798515ACF14C29A2 /* PHImageRequestOptions+RITLPhotoRepresentation.m in Sources */,
-				F3419038A15E20AA29C44421A13E026B /* RITLPhotoBaseViewModel.m in Sources */,
-				3FFA5BDCB6FA4EA613D21572F82E89F2 /* RITLPhotoBottomReusableView.m in Sources */,
-				EE3CDB667B42FB38F483C30B5AFBC14E /* RITLPhotoBridgeManager.m in Sources */,
-				C600087AA2ADFA90E4EBAB1EE6FD3190 /* RITLPhotoBrowseCell.m in Sources */,
-				CB7C10929CC07E25B00680288ACB5ADC /* RITLPhotoBrowseController.m in Sources */,
-				4BDAA850E51DEF775C5545B99A709E15 /* RITLPhotoBrowseViewModel.m in Sources */,
-				7FF90AB6FC36637F9F49225D545436FC /* RITLPhotoCacheManager.mm in Sources */,
-				034EA22C615BE4BFEDC1E28EEC6C120E /* RITLPhotoGroupCell.m in Sources */,
-				661CFB9A849F5B4DA9BA968F75538F81 /* RITLPhotoGroupViewController.m in Sources */,
-				7B9E621EBA0486E050BDECFCA41F1CD5 /* RITLPhotoGroupViewModel.m in Sources */,
-				3E6F0AA029E505664A651BA15057F33A /* RITLPhotoHandleManager.m in Sources */,
-				EFF68AE14BF630F826C798097CCC6FFA /* RITLPhotoNavigationViewController.m in Sources */,
-				A7A29CD70376CCE1286B38DC981C4D4F /* RITLPhotoNavigationViewModel.m in Sources */,
-				359F9578B17B79B44DBDD9EB3A573543 /* RITLPhotoPreviewController.m in Sources */,
-				A3DD0DDEDEE67B7E4302EC6F90B2C7C5 /* RITLPhotoRequestStore.m in Sources */,
-				BC9A6B2284A89FEC8D55B16AD6E48365 /* RITLPhotosCell.m in Sources */,
-				3EAA865F9384AB7B54EC880514B45E5F /* RITLPhotoStore.m in Sources */,
-				F3F8CD7E1C26FE5156DAB0637C707EA5 /* RITLPhotoStoreConfiguraion.m in Sources */,
-				98ACC6AAF93A3CC9DC8C96D2B7D5E578 /* RITLPhotosViewController.m in Sources */,
-				ADD1CDEA3D125196BE323290885C3345 /* RITLPhotosViewModel.m in Sources */,
-				4F3355470C182029A29D187C12673AB2 /* UIBar+RITLPhotos.m in Sources */,
-				2F10B9E7B3B720F03CE340C05DE714EA /* UIButton+RITLBlockButton.m in Sources */,
-				749592F89A21A4A793A56392F99C9C09 /* UIView+RITLFrameChanged.m in Sources */,
-				421A2E256584FB14FE88010C9613F05B /* UIViewController+RITLPhotoAlertController.m in Sources */,
-				70E02B6BC0E2BA02E3B0F7F91A1C3B24 /* XVIEWImageManager-dummy.m in Sources */,
+				49A40B388E393D37A65522F09A55613E /* ImageManager.m in Sources */,
+				1678F4278D588B53D32A801D39776956 /* Localizable.strings in Sources */,
+				FF50558BF36F37DD65B5B96924AE58B2 /* Localizable.strings in Sources */,
+				8CDCCEE9CB5FD5555FFD0CD12EA2DB28 /* PHAsset+RITLPhotoRepresentation.m in Sources */,
+				0BBB975063BC3DCE2609CE7B63B80805 /* PHAssetCollection+RITLPhotoRepresentation.m in Sources */,
+				BCCF6B1CA0A5D047922F16379943E296 /* PHFetchResult+RITLPhotoRepresentation.m in Sources */,
+				0640DF870F286514B7FBA24C56AF791A /* PHImageRequestOptions+RITLPhotoRepresentation.m in Sources */,
+				13765867E9927F8F90854E87E6CEF11C /* RITLPhotoBaseViewModel.m in Sources */,
+				A0193805E3FFB51CDDAC74DE2D83A45B /* RITLPhotoBottomReusableView.m in Sources */,
+				F9A1653D6FCDB9F22B03547985F5BDA4 /* RITLPhotoBridgeManager.m in Sources */,
+				122BA6821BC2965CC9583B3EEE7147F9 /* RITLPhotoBrowseCell.m in Sources */,
+				441430891F3475FA3F3B2098269FA8B9 /* RITLPhotoBrowseController.m in Sources */,
+				C4666C8486C5612707C21DCCB2377254 /* RITLPhotoBrowseViewModel.m in Sources */,
+				06EE1F82EA7435C8ED6CAA34682DBE2C /* RITLPhotoCacheManager.mm in Sources */,
+				3532626CCDBFB69AABFA3F1DFD5550F3 /* RITLPhotoGroupCell.m in Sources */,
+				EFBF92CF95D628350094772569E15A7A /* RITLPhotoGroupViewController.m in Sources */,
+				F92B9AEF413F0DFE19A5332C9D716CAB /* RITLPhotoGroupViewModel.m in Sources */,
+				6796A96D1CC1989601B7E77C826C574E /* RITLPhotoHandleManager.m in Sources */,
+				61009DF81B4395ADB8AD02EAB38DB1EC /* RITLPhotoNavigationViewController.m in Sources */,
+				B62BA4243DB5FA05B70556FC8FF24718 /* RITLPhotoNavigationViewModel.m in Sources */,
+				7113912B71CDA1D3481ABF563B5E54CF /* RITLPhotoPreviewController.m in Sources */,
+				D16312AC465BFA4BB57031C8872A70DA /* RITLPhotoRequestStore.m in Sources */,
+				5CB8C0783242580FA19B975A3E9F1B08 /* RITLPhotosCell.m in Sources */,
+				3198A42DC05EA66C70795655EB96E5E8 /* RITLPhotoStore.m in Sources */,
+				C32A12DE29E8FA1A111E9CCFD4D3182D /* RITLPhotoStoreConfiguraion.m in Sources */,
+				3A344707261DE2574F093771A47DBF9E /* RITLPhotosViewController.m in Sources */,
+				ABBA3843517F4C4C1930E2808CC8552A /* RITLPhotosViewModel.m in Sources */,
+				8D53939F2A252C5BA9C783099317C41A /* UIBar+RITLPhotos.m in Sources */,
+				C4D8FCD8FD931796CCF3BDC7DC7E789F /* UIButton+RITLBlockButton.m in Sources */,
+				CE6183DB20BE5E73A58CCBE8F4C6DA31 /* UIView+RITLFrameChanged.m in Sources */,
+				E146C0BC1EF7CB802396E68D4E9A8522 /* UIViewController+RITLPhotoAlertController.m in Sources */,
+				B413CBD9A8278A9D0B19A9D1ABD42985 /* XVIEWImageManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,11 +986,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		893BA39B6BE24560AAF1331284C2BD77 /* Localizable.strings */ = {
+		6129681CDF191FD5866EA94D0897D864 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7CCE21906B30C248A8E07F772A88B0E9 /* Localizable.strings */,
-				8C37AD58270FB946EE39126DAB14553D /* Localizable.strings */,
+				26622C9F5BCFF3A1F79524402345540A /* Localizable.strings */,
+				400FAC2BCA4E8E35E797B332A22704E4 /* Localizable.strings */,
 			);
 			name = Localizable.strings;
 			path = .;
@@ -1102,7 +1132,7 @@
 		};
 		7D7CB65008F20A0A47D16FC2FACE3A5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79FC1011D26F03DB87B19AAC9134DA39 /* XVIEWImageManager.xcconfig */;
+			baseConfigurationReference = 50DB147ACEEE9B38CB5BC2D15E1517C6 /* XVIEWImageManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1287,7 +1317,7 @@
 		};
 		F50B52F178917B1918E7313764450492 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79FC1011D26F03DB87B19AAC9134DA39 /* XVIEWImageManager.xcconfig */;
+			baseConfigurationReference = 50DB147ACEEE9B38CB5BC2D15E1517C6 /* XVIEWImageManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

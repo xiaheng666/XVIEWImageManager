@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - XVIEWImageManager (0.1.6):
+  - XVIEWImageManager (0.1.8):
     - Masonry
 
 DEPENDENCIES:
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  XVIEWImageManager: e74d823dd3b7ecc43de526ebc87816e552518a3d
+  XVIEWImageManager: c9176f530b299e651d9d3ca1510a6ccf1c393666
 
 PODFILE CHECKSUM: 21a11a13705f4808957996fe2d4a188f8b4cc88f
 

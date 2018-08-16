@@ -1,6 +1,6 @@
 {
   "name": "XVIEWImageManager",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "summary": "图片选择器",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWImageManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWImageManager.git",
-    "tag": "0.1.6"
+    "tag": "0.1.8"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,7 +26,8 @@
     "XVIEWImageManager/Classes/PhotosFiles/Supporting/Protocol/*",
     "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/*{.h,m}",
     "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/en.lproj/*{.strings}",
-    "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/zh-Hans.lproj/*{.strings}"
+    "XVIEWImageManager/Classes/PhotosFiles/PhotosStore/zh-Hans.lproj/*{.strings}",
+    "XVIEWImageManager/Classes/XVIEWImageManager/*{.h,m}"
   ],
   "libraries": "stdc++",
   "dependencies": {
