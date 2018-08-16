@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWImageManager'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '图片选择器'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
 
 s.source_files = 'XVIEWImageManager/Classes/PhotosFiles/**/*{.h,m}','XVIEWImageManager/Classes/PhotosFiles/Supporting/Category/*{.h,m}','XVIEWImageManager/Classes/PhotosFiles/Supporting/Protocol/*{.h}','XVIEWImageManager/Classes/PhotosFiles/Supporting/*.h','XVIEWImageManager/Classes/PhotosFiles/Supporting/Protocol/*','XVIEWImageManager/Classes/PhotosFiles/PhotosStore/*{.h,m}','XVIEWImageManager/Classes/PhotosFiles/PhotosStore/en.lproj/*{.strings}','XVIEWImageManager/Classes/PhotosFiles/PhotosStore/zh-Hans.lproj/*{.strings}'
   
-  #s.resource_bundles = {
-  # 'XVIEWImageManager' => ['XVIEWImageManager/Assets/*.png']
+  # s.resource_bundles = {
+  #'XVIEWImageManager' => ['XVIEWImageManager/Assets/RITLPhotos.xcassets/**/*.png']
   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
