@@ -189,6 +189,7 @@
 		28A8F7C2FF979E4A81DC5B96E68A6F31 /* HXPhotoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXPhotoModel.m; sourceTree = "<group>"; };
 		2B470C88F214E8D6FE9AC8886811C960 /* HXCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXCollectionView.m; sourceTree = "<group>"; };
 		2DF9AFF50231341AE9AC7F4AC253305E /* XVIEWMultiImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XVIEWMultiImageManager.h; sourceTree = "<group>"; };
+		303373CEA23C713EAA50BA617046E899 /* libMultiImageManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMultiImageManager.a; path = XVIEWImageManager/Classes/XVIEWMultiImageManager/libMultiImageManager.a; sourceTree = "<group>"; };
 		30A8AC9706A1005F1646438A2DC50DB8 /* HXDatePhotoPreviewBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoPreviewBottomView.h; sourceTree = "<group>"; };
 		374762FA4B5FCBA3639CF211B589C411 /* XVIEWImageManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XVIEWImageManager.framework; path = XVIEWImageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B4AFF375FDFC6FA36A80268AD2A740 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -306,7 +307,6 @@
 		D68398757CA9401A48C3A4C7F23D5AEE /* UIImageView+HXExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HXExtension.h"; sourceTree = "<group>"; };
 		D8654BAE9A8C00C775AB0F41B791EEC7 /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
 		DAE33CD993A612F103217153886AFA43 /* HXFullScreenCameraPlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HXFullScreenCameraPlayView.h; sourceTree = "<group>"; };
-		DD279C507753EC14280AD4C90B8C0B56 /* libMultiManager.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMultiManager.a; path = XVIEWImageManager/Classes/XVIEWMultiImageManager/libMultiManager.a; sourceTree = "<group>"; };
 		E2EFFB8672ED5015AE350AFE7200D0BA /* Pods-XVIEWImageManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWImageManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2FBBF0312F613F8C6607CCB2EF8C701 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
 		E88626D45A5AA10B3BD60FAC5A9B8877 /* HXPhotoCustomNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXPhotoCustomNavigationBar.m; sourceTree = "<group>"; };
@@ -517,6 +517,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6FE36648D5932D40387C534316FE5E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303373CEA23C713EAA50BA617046E899 /* libMultiImageManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		71E5D81114ED1566BFD40A738D5F6234 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -584,7 +592,7 @@
 		B39B6217C499F9E12D051FCC750553CE /* XVIEWImageManager */ = {
 			isa = PBXGroup;
 			children = (
-				EC8E5F17C143FEE6C867B7C9CEDC1BCE /* Frameworks */,
+				6FE36648D5932D40387C534316FE5E1A /* Frameworks */,
 				239B0FD49DC94ACCB84E9CDAD757A3BF /* HXPhotoPicker */,
 				59DBE19F1AB632A5C6E8F239DF573BB1 /* Pod */,
 				4353488F12C3DF6C76E105211A638216 /* Support Files */,
@@ -662,14 +670,6 @@
 			);
 			name = XVIEWMultiImageManager;
 			path = XVIEWImageManager/Classes/XVIEWMultiImageManager;
-			sourceTree = "<group>";
-		};
-		EC8E5F17C143FEE6C867B7C9CEDC1BCE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DD279C507753EC14280AD4C90B8C0B56 /* libMultiManager.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
