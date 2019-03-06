@@ -1,5 +1,5 @@
 PODS:
-  - XVIEWImageManager (0.2.1)
+  - XVIEWImageManager (0.2.2)
 
 DEPENDENCIES:
   - XVIEWImageManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWImageManager: 66fda6f6e9c17f6d1cd804a77ef44316baff7a1e
+  XVIEWImageManager: e16d564adeda0a804bc279c3c7cb7c2719aefccf
 
 PODFILE CHECKSUM: 21a11a13705f4808957996fe2d4a188f8b4cc88f
 
