@@ -1,6 +1,6 @@
 {
   "name": "XVIEWImageManager",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "多图选择",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWImageManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWImageManager.git",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "8.0"
